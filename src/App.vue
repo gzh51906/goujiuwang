@@ -32,22 +32,21 @@
         </router-link>
       </li>
     </ul>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
 <script>
-  import Vue from 'vue';
-  
-  import ElementUI from 'element-ui';
-  
-  Vue.use(ElementUI);
-  
-  import 'element-ui/lib/theme-chalk/index.css';
-  export default {
-    name: 'app',
-  
-  }
+import Vue from "vue";
+
+import ElementUI from "element-ui";
+
+Vue.use(ElementUI);
+
+import "element-ui/lib/theme-chalk/index.css";
+export default {
+  name: "app"
+};
 </script>
 
 <style scoped>
