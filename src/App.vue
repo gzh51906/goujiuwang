@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <ul>
+    <ul v-if="this.$route.name=='home'|this.$route.name=='sort'|this.$route.name=='benefits' | this.$route.name=='mine'| this.$route.name=='cart'">
       <li class="tabbar">
         <router-link :to="{name:'home'}" tag="span" class="t">
           <i class="el-icon-s-home"></i>
@@ -64,6 +64,7 @@
     left: 0;
     right: 0;
     bottom: 0px;
+    z-index:100;
   }
   
   ul .tabbar {

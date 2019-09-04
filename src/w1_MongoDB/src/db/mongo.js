@@ -1,7 +1,5 @@
 const mongodb = require('mongodb');
-
 const {DBurl,DBname} = require('../config.json');
-
 // 获取Mongo客户端
 const {MongoClient,ObjectId} = mongodb;
 

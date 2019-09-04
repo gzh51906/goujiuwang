@@ -5,6 +5,8 @@ import sort from '../components/sort.vue'
 import benefits from '../components/benefits.vue'
 import mine from '../components/mine.vue'
 import cart from '../components/cart.vue'
+import login from '../components/Login.vue'
+import reg from '../components/Reg.vue'
 Vue.use(VueRouter);
 let router = new VueRouter({
     routes:[
@@ -43,6 +45,18 @@ let router = new VueRouter({
         path:'/cart',
         component:cart       
   
-      }]
+      },
+      {
+        name:'login',
+        path:'/login',
+        component:login       
+  
+      },
+      {
+        name:'reg',
+        path:'/reg',
+        component:reg     
+      }
+    ]
     })
 export default router

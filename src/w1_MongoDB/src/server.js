@@ -1,7 +1,6 @@
 const express = require('express');
 const {PORT} = require('./config.json');
 const router = require('./router');
-
 const app = express();
 
 //静态资源服务器
