@@ -201,20 +201,402 @@
         </a>
       </div>
     </div>
+    <div class="cotainer">
+      <div class="van-row">
+        <div class="van-col van-col-12">
+          <a href="">
+            <img src="../assets/img/b2810c4bc1fd403aaeeb0e271c13a389.jpg" alt="">
+          </a>
+        </div>
+        <div class="van-col van-col-6">
+          <a href="">
+            <img src="../assets/img/8e9397b74cc04da1bc9051184f2f8c67.jpg" alt="">
+          </a>
+        </div>
+        <div class="van-col van-col-6">
+          <a href="">
+            <img src="../assets/img/fdfed8b0f2a24b76bd481c145a69f3ed.jpg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="index-ico">
+      <div class="van-row">
+        <div class="van-col van-col-8">
+          <span class="red">正品保证</span>
+        </div>
+        <div class="van-col van-col-8">
+          <span class="red">开箱验货</span>
+        </div>
+        <div class="van-col van-col-8">
+          <span class="red">赔付保证</span>
+        </div>
+      </div>
+      <a href="">
+        <img src="../assets/img/2a4c5c46055a4c47a0c9eca9c88e9c2b.jpg" alt="" width="100%">
+      </a>
+      <a href="">
+        <img src="../assets/img/9c1ea9c32bf4423bb60816212e87b02a.jpg" alt="" width="100%">
+      </a>
+    </div>
+    <div class="tabs home">
+      <el-tabs v-model="activeName2" type="card" @tab-click="handleClick">
+        <el-tab-pane label="精选" name="first">
+          <div class="van-tabs-content">
+            <div class="van-tab-pane">
+              <div class="van-list">
+                <div class="van-row">
+                  <div class="van-col van-col-12">
+                    <div class="pro-item">
+                      <a href="">
+                        <img src="../assets/img/3b4fd29e71f7464fb9ee7ba02d207aee_2.jpg" alt="">
+                        <p class="tit2">53度 茅台王子 酱香经典 （ 2018年产 ） 500ml</p>
+                        <div class="tag">
+                          <span>赠品促销</span>
+                        </div>
+                        <div class="red">￥439</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="van-col van-col-12">
+                    <div class="pro-item">
+                      <a href="">
+                        <img src="../assets/img/e176bdc2c69b4fc090daf51e971d4a59_2.jpg" alt="">
+                        <p class="tit2">53度 习酒 窖藏 1988（2012年产）500ml</p>
+                        <div class="tag">
+                          <span>限时抢购</span>
+                        </div>
+                        <div class="red">￥779</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="van-col van-col-12">
+                    <div class="pro-item">
+                      <a href="">
+                        <img src="../assets/img/97e2ca20ba574c14a99c3155d8f59791_2.jpg" alt="">
+                        <p class="tit2">53度 茅台王子 酱香经典 （ 2018年产 ） 500ml</p>
+                        <div class="tag">
+                          <span>赠品促销</span>
+                        </div>
+                        <div class="red">￥439</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="van-col van-col-12">
+                    <div class="pro-item">
+                      <a href="">
+                        <img src="../assets/img/9ab33df7f6124d87a831704b7ffc545b_2.jpg" alt="">
+                        <p class="tit2">53度 习酒 窖藏 1988（2012年产）500ml</p>
+                        <div class="tag">
+                          <span>限时抢购</span>
+                        </div>
+                        <div class="red">￥779</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="van-col van-col-12">
+                    <div class="pro-item">
+                      <a href="">
+                        <img src="../assets/img/f024d3dbf1db4127897360a0eb41b257_2.jpg" alt="">
+                        <p class="tit2">53度 茅台王子 酱香经典 （ 2018年产 ） 500ml</p>
+                        <div class="tag">
+                          <span>赠品促销</span>
+                        </div>
+                        <div class="red">￥439</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="van-col van-col-12">
+                    <div class="pro-item">
+                      <a href="">
+                        <img src="../assets/img/6a4dcbb3d64247c0afc76c4cafcf8b6d_2.jpg" alt="">
+                        <p class="tit2">53度 习酒 窖藏 1988（2012年产）500ml</p>
+                        <div class="tag">
+                          <span>限时抢购</span>
+                        </div>
+                        <div class="red">￥779</div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </el-tab-pane>
+        <el-tab-pane label="白酒" name="second">
+          <div class="van-tabs-content">
+            <div class="van-tab-pane">
+              <div class="van-list">
+                <div class="van-row">
+                  <div class="van-col van-col-12">
+                    <div class="pro-item">
+                      <a href="">
+                        <img src="../assets/img/30130a1219984c949512f83eb52db1eb_2.jpg" alt="">
+                        <p class="tit2">53度 茅台王子 酱香经典 （ 2018年产 ） 500ml</p>
+                        <div class="tag">
+                          <span>赠品促销</span>
+                        </div>
+                        <div class="red">￥439</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="van-col van-col-12">
+                    <div class="pro-item">
+                      <a href="">
+                        <img src="../assets/img/b01c5b4eccdd4d34a5c1feca7175a0d2_2.jpg" alt="">
+                        <p class="tit2">53度 习酒 窖藏 1988（2012年产）500ml</p>
+                        <div class="tag">
+                          <span>限时抢购</span>
+                        </div>
+                        <div class="red">￥779</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="van-col van-col-12">
+                    <div class="pro-item">
+                      <a href="">
+                        <img src="../assets/img/91b5305bbca94bc4b73f82cbb455b288_2.jpg" alt="">
+                        <p class="tit2">53度 茅台王子 酱香经典 （ 2018年产 ） 500ml</p>
+                        <div class="tag">
+                          <span>赠品促销</span>
+                        </div>
+                        <div class="red">￥439</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="van-col van-col-12">
+                    <div class="pro-item">
+                      <a href="">
+                        <img src="../assets/img/130aae1e17a84b66af3592e04b7bbc71_2.jpg" alt="">
+                        <p class="tit2">53度 习酒 窖藏 1988（2012年产）500ml</p>
+                        <div class="tag">
+                          <span>限时抢购</span>
+                        </div>
+                        <div class="red">￥779</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="van-col van-col-12">
+                    <div class="pro-item">
+                      <a href="">
+                        <img src="../assets/img/28fae5969a2047698e149c4c8058ccd9_2.jpg" alt="">
+                        <p class="tit2">53度 茅台王子 酱香经典 （ 2018年产 ） 500ml</p>
+                        <div class="tag">
+                          <span>赠品促销</span>
+                        </div>
+                        <div class="red">￥439</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="van-col van-col-12">
+                    <div class="pro-item">
+                      <a href="">
+                        <img src="../assets/img/bce12f589920489c97d90d3353de2477_2.jpg" alt="">
+                        <p class="tit2">53度 习酒 窖藏 1988（2012年产）500ml</p>
+                        <div class="tag">
+                          <span>限时抢购</span>
+                        </div>
+                        <div class="red">￥779</div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </el-tab-pane>
+        <el-tab-pane label="葡萄酒" name="third">
+          <div class="van-tabs-content">
+            <div class="van-tab-pane">
+              <div class="van-list">
+                <div class="van-row">
+                  <div class="van-col van-col-12">
+                    <div class="pro-item">
+                      <a href="">
+                        <img src="../assets/img/797e628763c5433b803cf06e5b492c21_2.jpg" alt="">
+                        <p class="tit2">53度 茅台王子 酱香经典 （ 2018年产 ） 500ml</p>
+                        <div class="tag">
+                          <span>赠品促销</span>
+                        </div>
+                        <div class="red">￥439</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="van-col van-col-12">
+                    <div class="pro-item">
+                      <a href="">
+                        <img src="../assets/img/f024d3dbf1db4127897360a0eb41b257_2.jpg" alt="">
+                        <p class="tit2">53度 习酒 窖藏 1988（2012年产）500ml</p>
+                        <div class="tag">
+                          <span>限时抢购</span>
+                        </div>
+                        <div class="red">￥779</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="van-col van-col-12">
+                    <div class="pro-item">
+                      <a href="">
+                        <img src="../assets/img/1bfe984a98ac4a728ca1fc56058e93b3_2.jpg" alt="">
+                        <p class="tit2">53度 茅台王子 酱香经典 （ 2018年产 ） 500ml</p>
+                        <div class="tag">
+                          <span>赠品促销</span>
+                        </div>
+                        <div class="red">￥439</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="van-col van-col-12">
+                    <div class="pro-item">
+                      <a href="">
+                        <img src="../assets/img/418ff41a27584913a07cb1645059bd89_2.jpg" alt="">
+                        <p class="tit2">53度 习酒 窖藏 1988（2012年产）500ml</p>
+                        <div class="tag">
+                          <span>限时抢购</span>
+                        </div>
+                        <div class="red">￥779</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="van-col van-col-12">
+                    <div class="pro-item">
+                      <a href="">
+                        <img src="../assets/img/cb1c522ab008413a9eb9b69461c24b32_2.jpg" alt="">
+                        <p class="tit2">53度 茅台王子 酱香经典 （ 2018年产 ） 500ml</p>
+                        <div class="tag">
+                          <span>赠品促销</span>
+                        </div>
+                        <div class="red">￥439</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="van-col van-col-12">
+                    <div class="pro-item">
+                      <a href="">
+                        <img src="../assets/img/ec5bb0b7732b44e48eda3de8fe2f4f1e.jpg" alt="">
+                        <p class="tit2">53度 习酒 窖藏 1988（2012年产）500ml</p>
+                        <div class="tag">
+                          <span>限时抢购</span>
+                        </div>
+                        <div class="red">￥779</div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </el-tab-pane>
+        <el-tab-pane label="清酒洋酒" name="fiveth">
+          <div class="van-tabs-content">
+            <div class="van-tab-pane">
+              <div class="van-list">
+                <div class="van-row">
+                  <div class="van-col van-col-12">
+                    <div class="pro-item">
+                      <a href="">
+                        <img src="../assets/img/18abc1ee1b0f45a89d136bb188c44fb9_2.jpg" alt="">
+                        <p class="tit2">53度 茅台王子 酱香经典 （ 2018年产 ） 500ml</p>
+                        <div class="tag">
+                          <span>赠品促销</span>
+                        </div>
+                        <div class="red">￥439</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="van-col van-col-12">
+                    <div class="pro-item">
+                      <a href="">
+                        <img src="../assets/img/37d8820d8748489dac15ba96ab2a1f7e_2.jpg" alt="">
+                        <p class="tit2">53度 习酒 窖藏 1988（2012年产）500ml</p>
+                        <div class="tag">
+                          <span>限时抢购</span>
+                        </div>
+                        <div class="red">￥779</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="van-col van-col-12">
+                    <div class="pro-item">
+                      <a href="">
+                        <img src="../assets/img/54e9e4264dc64688b4f527a155c5fa66_2.jpg" alt="">
+                        <p class="tit2">53度 茅台王子 酱香经典 （ 2018年产 ） 500ml</p>
+                        <div class="tag">
+                          <span>赠品促销</span>
+                        </div>
+                        <div class="red">￥439</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="van-col van-col-12">
+                    <div class="pro-item">
+                      <a href="">
+                        <img src="../assets/img/ae148917f33049f3bc3b1d38a945ea56_2.jpg" alt="">
+                        <p class="tit2">53度 习酒 窖藏 1988（2012年产）500ml</p>
+                        <div class="tag">
+                          <span>限时抢购</span>
+                        </div>
+                        <div class="red">￥779</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="van-col van-col-12">
+                    <div class="pro-item">
+                      <a href="">
+                        <img src="../assets/img/4dcf073a9c5c4c8594227c716b0084b0_2.jpg" alt="">
+                        <p class="tit2">53度 茅台王子 酱香经典 （ 2018年产 ） 500ml</p>
+                        <div class="tag">
+                          <span>赠品促销</span>
+                        </div>
+                        <div class="red">￥439</div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="van-col van-col-12">
+                    <div class="pro-item">
+                      <a href="">
+                        <img src="../assets/img/c041433b4149416792f7ce1f90eb8470_2.jpg" alt="">
+                        <p class="tit2">53度 习酒 窖藏 1988（2012年产）500ml</p>
+                        <div class="tag">
+                          <span>限时抢购</span>
+                        </div>
+                        <div class="red">￥779</div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </el-tab-pane>
+      </el-tabs>
+    </div>
   </div>
+
 </template>
 <script>
-export default {};
+   export default {
+    data() {
+      return {
+        activeName2: 'first'
+      };
+    },
+    methods: {
+      handleClick(tab, event) {
+        console.log(tab, event);
+      }
+    }
+  };
 </script>
 <style scoped>
-.el-carousel__item h3 {
-  color: #475669;
-  font-size: 18px;
-  opacity: 0.75;
-  height: 300px;
-  line-height: 300px;
-  margin: 0;
-}
+  .el-carousel__item h3 {
+    color: #475669;
+    font-size: 18px;
+    opacity: 0.75;
+    height:300px;
+    line-height: 300px;
+    margin: 0;
+  }
 
 .el-carousel__container {
   height: 180px;
@@ -362,8 +744,8 @@ export default {};
 
 .vann-row {
   margin: 10px auto;
-  display: flex;
-  height: 200px;
+  display: flex; 
+  height:152px;
 }
 
 .vann-col {
@@ -375,4 +757,141 @@ export default {};
   width: 182px;
   height: 150px;
 }
+
+.cotainer {
+  width: 100%;
+  height: 115px;
+}
+
+.cotainer .van-row{
+  /* margin: 10px auto; */
+  width: 345px;
+  height: 165px;
+}
+
+.cotainer .van-col{
+  float: left;
+}
+
+.van-col-6{
+  width: 25%;
+}
+.cotainer .van-col-12{
+  width: 50%;
+}
+
+.cotainer .van-col img{
+  /* width: 172px; */
+  height: 110px;
+  width: 100%; 
+}
+
+.index-ico{
+  /* display: flex; */
+  width: 345px;
+  height: 240px;
+}
+
+.index-ico .van-row{
+  display: flex;
+  width: 345px;
+  height: 25px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.van-col-8{
+  width: 33.3333%;
+}
+
+.index-ico .van-col{
+  float: left;
+}
+
+.tabs home{
+  width: 375px;
+  height: 3932px;
+}
+
+.el-tabs{
+  width: 375px;
+  /* height: 3932px */
+}
+
+/* 最好祝贺 ******************************************************************************/
+
+.van-col--12 {
+    width: 50%;
+}
+
+.tabs .van-tabs-content{
+  width: 365px;
+  /* height: 6645px; */
+}
+
+.tabs .van-tab-pane{
+  width: 365px;
+  /* height: 6645px; */
+}
+
+.tabs .van-tab-pane .van-row{
+  margin-left: 5px;
+  margin-right: -5px;
+  margin: 5px auto;
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.tabs home .van-tab-pane .van-col{
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 187px;
+  height: 277px;
+  float: left;
+}
+
+.tabs .van-tab-pane .pro-item {
+    margin-bottom: 10px;
+    height: 290px;
+    border: #eee 1px solid;
+}
+
+.tabs .van-tab-pane .pro-item img{
+  display: inline-block;
+  /* width: 50%; */
+  height: 168px;
+}
+
+.tabs .van-tab-pane .pro-item .tit2{
+  width: 168px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-height: 1.3;
+  margin: 5px 0;
+  height: 36px;
+  font-family: Arial, Helvetica, "STHeiti STXihei", "Microsoft YaHei";
+  font-size: 12px;
+}
+
+.tag {
+    text-align: left;
+    height: 22px;
+    clear: both;
+}
+
+.tag span {
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 10px;
+    /* color: #fff; */
+    margin: 0 5px;
+}
+
+.red {
+    color: #fb223e;
+}
+
 </style>

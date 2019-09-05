@@ -10,7 +10,7 @@ const {
 // 引入路由文件
 const sortRouter = require('./sort');
 const userRouter = require('./user');
-
+const homeRouter = require('./home');
 
 
 // 利用中间bodyParse格式化请求参数
@@ -31,9 +31,16 @@ Router.use((req, res, next) => {
 })
 
 // 商品
+<<<<<<< HEAD
+Router.use('/goods',goodsRouter);
+Router.use('/user', userRouter);
+Router.use('/home',homeRouter);
+Router.get('/verify',(req,res)=>{
+=======
 Router.use('/sort', sortRouter);
 Router.use('/user', userRouter);
 Router.get('/verify', (req, res) => {
+>>>>>>> 2e0772c8ef98da6f232882910f8c150b2df5fa5a
     // 获取前端传入的token
     // 对token进行校验
     let authorization = req.header('Authorization');
