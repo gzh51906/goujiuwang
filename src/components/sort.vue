@@ -6,75 +6,43 @@
         <i icon="el-icon-search" class="el-icon-search"></i>
       </router-link>
     </div>
-    <div class="content">
+    <div class="content" v-for="ele in datalist" :key="ele.TypeName">
       <ul class="uilist1">
-        <li class="title">
-          <span class="kind">白酒</span>
+        <div class="title">
+          <span class="kind">{{ele.TypeName}}</span>
           <span class="checkall">查看全部></span>
-        </li>
-        <li class="list_1" @click="gotolist">茅台</li>
-        <li class="list_1" @click="gotolist">五粮液</li>
-        <li class="list_1" @click="gotolist">剑南春</li>
-        <li class="list_1" @click="gotolist">汾酒</li>
-        <li class="list_1" @click="gotolist">郎酒</li>
-        <li class="list_1" @click="gotolist">古井贡酒</li>
-      </ul>
-      <ul class="uilist1">
-        <li class="title">
-          <span class="kind">白酒</span>
-          <span class="checkall">查看全部></span>
-        </li>
-        <li class="list_1" @click="gotolist">茅台</li>
-        <li class="list_1" @click="gotolist">五粮液</li>
-        <li class="list_1" @click="gotolist">剑南春</li>
-        <li class="list_1" @click="gotolist">汾酒</li>
-        <li class="list_1" @click="gotolist">郎酒</li>
-        <li class="list_1" @click="gotolist">古井贡酒</li>
-      </ul>
-      <ul class="uilist1">
-        <li class="title">
-          <span class="kind">白酒</span>
-          <span class="checkall">查看全部></span>
-        </li>
-        <li class="list_1" @click="gotolist">茅台</li>
-        <li class="list_1" @click="gotolist">五粮液</li>
-        <li class="list_1" @click="gotolist">剑南春</li>
-        <li class="list_1" @click="gotolist">汾酒</li>
-        <li class="list_1" @click="gotolist">郎酒</li>
-        <li class="list_1" @click="gotolist">古井贡酒</li>
-      </ul>
-      <ul class="uilist1">
-        <li class="title">
-          <span class="kind">白酒</span>
-          <span class="checkall">查看全部></span>
-        </li>
-        <li class="list_1" @click="gotolist">茅台</li>
-        <li class="list_1" @click="gotolist">五粮液</li>
-        <li class="list_1" @click="gotolist">剑南春</li>
-        <li class="list_1" @click="gotolist">汾酒</li>
-        <li class="list_1" @click="gotolist">郎酒</li>
-        <li class="list_1" @click="gotolist">古井贡酒</li>
-      </ul>
-      <ul class="uilist1">
-        <li class="title">
-          <span class="kind">白酒</span>
-          <span class="checkall">查看全部></span>
-        </li>
-        <li class="list_1">茅台</li>
-        <li class="list_1">五粮液</li>
-        <li class="list_1">剑南春</li>
-        <li class="list_1">汾酒</li>
-        <li class="list_1">郎酒</li>
-        <li class="list_1">古井贡酒</li>
+        </div>
+        <li
+          v-for="item in ele.TypeData"
+          :key="item.name"
+          class="list_1"
+          @click="gotolist(ele.PinYin,item.PinYin)"
+        >{{item.Name}}</li>
       </ul>
     </div>
   </div>
 </template>
 <script>
 export default {
+  data() {
+    return {
+      datalist: {},
+      productlist: []
+    };
+  },
+  created() {
+    this.database();
+  },
   methods: {
-    gotolist() {
-      this.$router.push("/goods");
+    async database() {
+      let { data } = await this.$axios.get("http://localhost:1906/sort");
+      // console.log(data);
+      this.datalist = data.data[0].item_data;
+      // console.log(this.datalist);
+    },
+    gotolist(val1, val2) {
+      let path = val1 + "-" + val2;
+      this.$router.push(`/goods/${path}`);
     }
   }
 };
@@ -91,7 +59,8 @@ body {
 }
 </style>
 <style scoped>
-html,body{
+html,
+body {
   height: 100%;
 }
 * {
@@ -142,10 +111,8 @@ input::-webkit-input-placeholder {
   justify-content: space-between;
   margin: 0px;
 }
-.uilist1 li:nth-child(1) {
-  width: 100%;
-}
 .title {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;

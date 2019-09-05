@@ -1,41 +1,43 @@
 <template>
   <div class="detail">
-    <div class="top">
+    <div class="top" ref="top">
       <div class="serc">
         <div class="back" @click="tobacktarget">
           <i class="el-icon-s el-icon-arrow-left"></i>
         </div>
-        <div class="title">53度 茅台飞天 （ 2019年产 ）200ml</div>
+        <div class="title">{{itemlist.ProductName}}</div>
       </div>
-      <ul class="tabs">
-        <li>
-          <span>商品</span>
-        </li>
-        <li>
-          <span>详情</span>
-        </li>
-        <li>
-          <span>评论</span>
+      <ul class="nav nav-tabs tabs box_fixed" id="boxFixed" :class="{'is_fixed' : isFixed}">
+        <li class="nav-item" v-for="(ele,i) in list" :key="ele">
+          <span
+            class="nav-link"
+            :class="{active:i===activeIdxq}"
+            href="#"
+            @click="changq(i)"
+          >{{ele}}</span>
         </li>
       </ul>
-      <el-carousel trigger="click" height="370px" arrow="never" class="banner">
+      <el-carousel trigger="click" height="370px" arrow="always" class="banner">
         <el-carousel-item v-for="item in 4" :key="item">
-          <img
-            src="http://img0.gjw.com/product/2017/0930/325f9fb461b249c0bf8be061b009f169_4.jpg"
-            alt
-          />
+          <img :src="'http://img0.gjw.com/product/'+itemlist.Pic" alt />
         </el-carousel-item>
       </el-carousel>
       <div class="info">
         <div class="goodname">
-          <p>53度 茅台飞天 （ 2019年产 ）200ml</p>
-          <span>
+          <p>{{itemlist.ProductName}}</p>
+          <span class="attention" @click="attention">
             <i class="el-icon-star-off"></i> 关注
           </span>
         </div>
         <div class="price">
-          <span class="nowprice">￥998</span>
+          <span class="nowprice">￥{{itemlist.APPPrice}}</span>
           <span class="depreciate">降价通知</span>
+        </div>
+        <div class="box" v-if="ActivityNamelength">
+          <div class="discout">
+            <a>促销</a>
+            <span v-for="item in itemlist.ActivityName" :key="item.Ativityname">{{item.Ativityname}}</span>
+          </div>
         </div>
         <div class="getcoupon">
           领券
@@ -53,7 +55,7 @@
         </div>
         <div class="hint">
           提示
-          <span>每购买1瓶，即赠送原厂手提袋1个</span>
+          <span>{{itemlist.BagExplain}}</span>
           <p>此商品不支持货到付款</p>
         </div>
       </div>
@@ -73,10 +75,10 @@
       </ul>
       <div class="discuss">
         <div class="discusstitle">
-          <span>评论(13)</span>
+          <span>评论({{itemlist.GoodCommment}})</span>
           <span>
             好评度
-            <i>92%</i>
+            <i>{{(itemlist.GoodCommment/itemlist.SumComment).toFixed(2)*100}}%</i>
             <b class="el-icon-arrow-right"></b>
           </span>
         </div>
@@ -159,7 +161,7 @@
           <i class="el-icon-arrow-right"></i>
         </el-button>
       </div>
-      <div class="detail">
+      <div class="detail_1">
         <ul class="nav nav-tabs">
           <li class="nav-item" v-for="(ele,i) in tabs" :key="ele.name">
             <span
@@ -171,8 +173,23 @@
           </li>
         </ul>
         <div v-for="(ele,i) in tabs" v-show="i===activeIdx" :key="ele.name" class="listpro active">
-          <div v-if="ele.imgurl">
+          <div v-if="ele.name==='商品介绍'">
             <img v-for="e in ele.imgurl" :src="e" :key="e" />
+          </div>
+          <div v-else-if="ele.name==='包装售后'">
+            <p>{{ele.p}}</p>
+          </div>
+          <div v-else-if="ele.name==='规格介绍'">
+            <el-table
+              v-for="item in ele.tableData"
+              border
+              style="width: 100%"
+              :key="item.AttrTitle"
+              class="table_pro"
+            >
+              <el-table-column :label="item.AttrTitle" width="190"></el-table-column>
+              <el-table-column :label="item.AttrVal" width="cal(100%-190)"></el-table-column>
+            </el-table>
           </div>
         </div>
       </div>
@@ -180,13 +197,13 @@
     <div class="navigation">
       <el-row class="nav_item">
         <el-col :span="8">
-          <el-col :span="11" class="nav_home">
+          <el-col :span="11" class="nav_home" @click.native="goto('home')">
             <div class="bottom_left">
               <i class="el-icon-s-home"></i>
               <span>首页</span>
             </div>
           </el-col>
-          <el-col :span="11">
+          <el-col :span="11" class="nav_cart" @click.native="goto('cart')">
             <div class="bottom_left">
               <i class="el-icon-shopping-cart-2">
                 <el-badge :value="3" class="item badge_item"></el-badge>
@@ -213,6 +230,11 @@ export default {
     return {
       num: 1,
       activeIdx: 0,
+      activeIdxq: 0,
+      isFixed: false,
+      offsetTop: 0,
+      itemlist: [],
+      ActivityNamelength: 0,
       tabs: [
         {
           name: "商品介绍",
@@ -224,29 +246,116 @@ export default {
           ]
         },
         {
-          name: "规格介绍",text:["aa","bb","cc"]
+          name: "规格介绍",
+          tableData: [
+            {
+              AttrTitle: "品牌",
+              AttrVal: "茅台"
+            },
+            {
+              AttrTitle: "商品编号",
+              AttrVal: "6902952880065"
+            },
+            {
+              AttrTitle: "净含量",
+              AttrVal: "475ML以下"
+            },
+            {
+              AttrTitle: "度数",
+              AttrVal: "50度以上"
+            },
+            {
+              AttrTitle: "手提袋",
+              AttrVal: "两瓶配一个手提袋"
+            },
+            {
+              AttrTitle: "香型",
+              AttrVal: "酱香型"
+            },
+            {
+              AttrTitle: "箱规",
+              AttrVal: "1*6"
+            },
+            {
+              AttrTitle: "规格",
+              AttrVal: "单瓶"
+            }
+          ]
         },
         {
           name: "包装售后",
-          p:"hahahahhaahh"
+          p: "包装由购酒网专箱及胶带封箱"
         }
-      ]
+      ],
+      list: ["商品", "详情", "评论"]
     };
   },
+  mounted() {
+    this.handleScroll();
+  },
+  created() {
+    // console.log(this.$route.params);
+    let path = this.$route.params;
+    this.iteminf(path);
+  },
   methods: {
+    async iteminf(path) {
+      let ietmid = path.name;
+      let { data } = await this.$axios.get("http://localhost:1906/sort/item", {
+        params: { id: ietmid }
+      });
+      this.itemlist = data.data.length ? data.data[0] : [];
+      console.log("this.itemlist", this.itemlist);
+      this.ActivityNamelength = this.itemlist.ActivityName.length;
+      console.log(this.ActivityNamelength);
+    },
+    handleScroll() {
+      this.$refs.top.addEventListener("scroll", () => {
+        var scrollTop = this.$refs.top.scrollTop;
+        this.isFixed = scrollTop > this.offsetTop ? true : false;
+      });
+      this.$nextTick(() => {
+        //获取对象相对于版面或由 offsetTop 属性指定的父坐标的计算顶端位置
+        this.offsetTop = document.querySelector("#boxFixed").offsetTop;
+        this.offsetHeight = document.querySelector("#boxFixed").offsetHeight;
+      });
+    },
     tobacktarget() {
-      console.log(this.tabs[0].imgurl);
-
-      console.log(this.$route);
       if (this.$route.query.target) {
-        this.$router.push(target);
+        // this.$router.push(target);
       } else {
         this.$router.push("/goods");
       }
     },
-    changi(i, e) {
+    changi(i) {
       this.activeIdx = i;
+    },
+    changq(i) {
+      // console.log(this.$refs.top.scrollTop);
+      // console.log(i);
+      if (i == 0) {
+        this.$refs.top.scrollTop = 0;
+      } else if (i == 1) {
+        this.$refs.top.scrollTop = 1436;
+      } else if (i == 2) {
+        this.$refs.top.scrollTop = 705;
+      }
+      this.activeIdxq = i;
+    },
+    goto(val) {
+      // console.log("+++");
+
+      this.$router.push({ name: val });
+    },
+    attention() {
+      // console.log("attention");
+      // 判断是否是登录状态，是的话直接更换成有颜色的星星，不是的话就跳转到登录页面
     }
+  },
+  //回调中移除监听
+  destroyed() {
+    window.removeEventListener("scroll", this.handleScroll);
+    // console.log("destroyed");
   }
 };
 </script>
@@ -293,24 +402,39 @@ body,
   text-overflow: ellipsis;
   margin-left: 10px;
 }
-.tabs {
+.box_fixed {
+  width: 100%;
+  height: 55px;
+  margin: 0 auto;
+  line-height: 55px;
   display: flex;
-  height: 45px;
-  margin-top: 30px;
+  // margin-top: 30px;
+  background: #fff;
+}
+.is_fixed {
+  position: fixed;
+  top: 0;
+  z-index: 999;
 }
 .tabs li {
   width: 33.3%;
-  height: 35px;
+  height: 100%;
   line-height: 35px;
   text-align: center;
   font-size: 14px;
   color: #333;
-  border-bottom: 2px solid transparent;
+  span {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid transparent;
+  }
 }
-.tabs li:nth-child(1) {
-  border-bottom-color: #f44;
+.tabs .active {
   color: #f44;
+  border-bottom-color: #f44;
 }
+
 .banner img {
   width: 100%;
 }
@@ -351,6 +475,15 @@ body,
   border: 1px solid #e5e5e5;
   font: inherit;
 }
+.discout {
+  padding: 8px 0px;
+  span {
+    padding: 2px;
+    margin-left: 10px;
+    color: #f44;
+    border: 1px solid #f44;
+  }
+}
 .getcoupon {
   padding: 8px 0px;
 }
@@ -384,6 +517,7 @@ body,
   margin-top: 20px;
 }
 .navigation {
+  background: #fff;
   width: 100%;
   height: 50px;
   position: fixed;
@@ -527,11 +661,14 @@ body,
 .discuss span:nth-child(2) {
   text-align: right;
 }
-.detail {
+.detail_1 {
   .nav-tabs {
     display: flex;
     font-size: 14px;
     padding: 5px 0px;
+    .active {
+      color: #f44;
+    }
     li {
       width: 33%;
       padding: 20px;
@@ -543,13 +680,25 @@ body,
     border-right: 1px solid #f3f3f3;
   }
   .listpro {
+    min-height: 800px;
     img {
       width: 100%;
     }
   }
 }
 </style>
-<style >
+<style>
+.el-table__body-wrapper {
+  display: none;
+}
+.el-avatar {
+  width: 47px;
+}
+.table_pro .el-table td,
+.el-table th {
+  padding: 0px;
+}
+
 .el-carousel__indicator .el-carousel__button {
   background-color: #999;
   width: 7px;

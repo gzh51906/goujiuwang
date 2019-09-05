@@ -21,88 +21,21 @@
     </ul>
     <div class="content">
       <el-row class="con_dalst">
-        <el-col :span="12" class="dtlist_li" @click.native="gotodetail">
-          <img
-            src="http://img0.gjw.com/product/2019/0816/731da146152b4ebe85b32e2bfd761141_2.jpg"
-            alt
-          />
-          <p class="name">53度 茅台飞天 （ 2019年产 ）200ml</p>
+        <el-col
+          :span="12"
+          class="dtlist_li"
+          @click.native="gotodetail(item.ID)"
+          v-for="item in productlist"
+          :key="item.ID"
+        >
+          <img :src="'http://img0.gjw.com/product/'+item.Pic" alt />
+          <p class="name">{{item.ProductName}}</p>
           <p class="price">
-            <span>￥988</span>
+            <span>￥{{item.APPPrice}}</span>
           </p>
           <p class="discuss">
-            <span class="gooddiscuss">822条好评</span>
-            <span class="percentdiscuss">80%好评</span>
-          </p>
-        </el-col>
-        <el-col :span="12" class="dtlist_li" @click.native="gotodetail">
-          <img
-            src="http://img0.gjw.com/product/2019/0816/731da146152b4ebe85b32e2bfd761141_2.jpg"
-            alt
-          />
-          <p class="name">53度 茅台飞天 （ 2019年产 ）200ml</p>
-          <p class="price">
-            <span>￥988</span>
-          </p>
-          <p class="discuss">
-            <span class="gooddiscuss">822条好评</span>
-            <span class="percentdiscuss">80%好评</span>
-          </p>
-        </el-col>
-        <el-col :span="12" class="dtlist_li" @click.native="gotodetail">
-          <img
-            src="http://img0.gjw.com/product/2019/0816/731da146152b4ebe85b32e2bfd761141_2.jpg"
-            alt
-          />
-          <p class="name">53度 茅台飞天 （ 2019年产 ）200ml</p>
-          <p class="price">
-            <span>￥988</span>
-          </p>
-          <p class="discuss">
-            <span class="gooddiscuss">822条好评</span>
-            <span class="percentdiscuss">80%好评</span>
-          </p>
-        </el-col>
-        <el-col :span="12" class="dtlist_li" @click.native="gotodetail">
-          <img
-            src="http://img0.gjw.com/product/2019/0816/731da146152b4ebe85b32e2bfd761141_2.jpg"
-            alt
-          />
-          <p class="name">53度 茅台飞天 （ 2019年产 ）200ml</p>
-          <p class="price">
-            <span>￥988</span>
-          </p>
-          <p class="discuss">
-            <span class="gooddiscuss">822条好评</span>
-            <span class="percentdiscuss">80%好评</span>
-          </p>
-        </el-col>
-        <el-col :span="12" class="dtlist_li" @click.native="gotodetail">
-          <img
-            src="http://img0.gjw.com/product/2019/0816/731da146152b4ebe85b32e2bfd761141_2.jpg"
-            alt
-          />
-          <p class="name">53度 茅台飞天 （ 2019年产 ）200ml</p>
-          <p class="price">
-            <span>￥988</span>
-          </p>
-          <p class="discuss">
-            <span class="gooddiscuss">822条好评</span>
-            <span class="percentdiscuss">80%好评</span>
-          </p>
-        </el-col>
-        <el-col :span="12" class="dtlist_li" @click.native="gotodetail">
-          <img
-            src="http://img0.gjw.com/product/2019/0816/731da146152b4ebe85b32e2bfd761141_2.jpg"
-            alt
-          />
-          <p class="name">53度 茅台飞天 （ 2019年产 ）200ml</p>
-          <p class="price">
-            <span>￥988</span>
-          </p>
-          <p class="discuss">
-            <span class="gooddiscuss">822条好评</span>
-            <span class="percentdiscuss">80%好评</span>
+            <span class="gooddiscuss">{{item.SumComment}}条好评</span>
+            <span class="percentdiscuss">{{(item.GoodCommment/item.SumComment).toFixed(2)*100}}%好评</span>
           </p>
         </el-col>
       </el-row>
@@ -111,12 +44,31 @@
 </template>
 <script>
 export default {
+  data() {
+    return {
+      productlist: []
+    };
+  },
+  created() {
+    console.log(this.$route.params);
+    let path = this.$route.params;
+    this.prolist(path);
+  },
   methods: {
+    async prolist(path) {
+      path = path.name;
+      let { data } = await this.$axios.get("http://localhost:1906/sort/goods", {
+        params: { id: path }
+      });
+      this.productlist = data.data.length ? data.data[0].Prolist : [];
+      console.log(data.data[0].Prolist);
+    },
     gotoback() {
       this.$router.push("/sort");
     },
-    gotodetail() {
-      this.$router.push("/detail");
+    gotodetail(id) {
+      // this.$router.push("/detail");
+      this.$router.push(`/detail/${id}`);
     }
   }
 };
@@ -217,6 +169,8 @@ input::-webkit-input-placeholder {
   color: #444;
   font-size: 14px;
   width: 95%;
+  min-height: 76px;
+  margin-top: 8px;
 }
 .dtlist_li .price {
   color: #ac2023;
