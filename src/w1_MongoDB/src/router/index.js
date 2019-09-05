@@ -7,7 +7,7 @@ const {token,formatData} = require('../utils');
 // 引入路由文件
 const goodsRouter = require('./goods');
 const userRouter = require('./user');
-
+const homeRouter = require('./home');
 
 
 // 利用中间bodyParse格式化请求参数
@@ -27,7 +27,8 @@ Router.use((req,res,next)=>{
 
 // 商品
 Router.use('/goods',goodsRouter);
-Router.use('/user',userRouter);
+Router.use('/user', userRouter);
+Router.use('/home',homeRouter);
 Router.get('/verify',(req,res)=>{
     // 获取前端传入的token
     // 对token进行校验
