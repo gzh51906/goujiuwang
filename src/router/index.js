@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-Vue .use(VueRouter);
+Vue.use(VueRouter);
 import home from '../components/home.vue'
 import sort from '../components/sort.vue'
 import benefits from '../components/benefits.vue'
@@ -35,53 +35,41 @@ let router = new VueRouter({
 
     },
     {
-        name:'sort',
-        path:'/sort',
-        component:sort       
-  
-      },
-      {
-        name:'benefits',
-        path:'/benefits',
-        component:benefits       
-  
-      },
-      {
-        name:'mine',
-        path:'/mine',
-        component:mine       
-  
-      },
-      {
-        name:'cart',
-        path:'/cart',
-        component:cart       
-  
-      },
-      {
-        name:'login',
-        path:'/login',
-        component:login       
-  
-      },
-      {
-        name:'reg',
-        path:'/reg',
-        component:reg     
-      },
-      {
-        name: 'search',
-        path: '/search',
-        component: search,
-      }, {
-        name: 'goods',
-        path: '/goods',
-        component: goods,
-      }, {
-        name: 'detail',
-        path: '/detail',
-        component: detail,
-      }
-    ]
-    })
+      name: 'mine',
+      path: '/mine',
+      component: mine
+
+    },
+    {
+      name: 'cart',
+      path: '/cart',
+      component: cart
+
+    },
+    {
+      name: 'login',
+      path: '/login',
+      component: login
+
+    },
+    {
+      name: 'reg',
+      path: '/reg',
+      component: reg
+    },
+    {
+      name: 'search',
+      path: '/search',
+      component: search,
+    }, {
+      name: 'goods',
+      path: '/goods/:name',
+      component: goods,
+    }, {
+      name: 'detail',
+      path: '/detail/:name',
+      component: detail,
+    }
+  ]
+})
 export default router

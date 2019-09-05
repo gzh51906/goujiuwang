@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <ul v-if="this.$route.name=='home'|this.$route.name=='sort'|this.$route.name=='benefits' | this.$route.name=='mine'| this.$route.name=='cart'">
+    <ul
+      v-if="this.$route.name=='home'|this.$route.name=='sort'|this.$route.name=='benefits' | this.$route.name=='mine'| this.$route.name=='cart'"
+    >
       <li class="tabbar">
         <router-link :to="{name:'home'}" tag="span" class="t">
           <i class="el-icon-s-home"></i>
@@ -48,37 +50,45 @@ export default {
   name: "app"
 };
 </script>
-
+<style >
+#app {
+  max-width: 640px;
+  margin: auto;
+  min-width: 320px;
+}
+</style>
 <style scoped>
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  ul {
-    width: 100%;
-    height: 50px;
-    display: flex;
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0px;
-    z-index:100;
-  }
-  
-  ul .tabbar {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: pink;
-  }
-  
-  ul .tabbar .t {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-  }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  max-width: 640px;
+  margin: auto;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  z-index: 100;
+}
+
+ul .tabbar {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: pink;
+}
+
+ul .tabbar .t {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
 </style>

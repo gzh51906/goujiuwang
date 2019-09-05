@@ -1,0 +1,3050 @@
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a38"),
+    "name": "baijiu-maotai",
+    "Prolist": [{
+            "ID": 1,
+            "ProductName": "53度 茅台飞天 （ 2019年产 ）200ml",
+            "APPPrice": 988.0,
+            "Pic": "2019/0816/731da146152b4ebe85b32e2bfd761141.jpg",
+            "BagExplain": "两瓶配一个手提袋",
+            "SumComment": 39,
+            "GoodCommment": "38",
+            "ActivityName": []
+        },
+        {
+            "ID": 2,
+            "ProductName": "53度 茅台 飞天带杯（ 2019年产 ）500ml",
+            "APPPrice": 2799.0,
+            "Pic": "2019/0813/94ff85adea814fd89cce17556bbce5dd.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 485,
+            "GoodCommment": "464",
+            "ActivityName": []
+        },
+        {
+            "ID": 3,
+            "ProductName": "43度 茅台飞天酒（带杯）（ 2019年产）500ml",
+            "APPPrice": 979.0,
+            "Pic": "2019/0816/28fae5969a2047698e149c4c8058ccd9.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 263,
+            "GoodCommment": "251",
+            "ActivityName": []
+        },
+        {
+            "ID": 6,
+            "ProductName": "53度 茅台 王子酒 （ 2018年产 ）500ml",
+            "APPPrice": 228.0,
+            "Pic": "2019/0823/80a348f396754c57aa7d50bd77a9cc05.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 822,
+            "GoodCommment": "753",
+            "ActivityName": []
+        },
+        {
+            "ID": 8,
+            "ProductName": "53度 茅台 迎宾酒 （ 2018年产 ）500ml",
+            "APPPrice": 139.0,
+            "Pic": "2019/0823/8223430ac116464b8dc4d82f81bd3cfb.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 678,
+            "GoodCommment": "631",
+            "ActivityName": []
+        },
+        {
+            "ID": 9,
+            "ProductName": "53度 茅台 15年 十五年陈年茅台酒  （ 2019年产 ）500ml",
+            "APPPrice": 4899.0,
+            "Pic": "2019/0823/f93ff24077084f5ea169d039b8a04316.jpg",
+            "BagExplain": "每购买1瓶，即赠送原厂手提袋1个",
+            "SumComment": 13,
+            "GoodCommment": "12",
+            "ActivityName": []
+        },
+        {
+            "ID": 10,
+            "ProductName": "53度 茅台 30年 三十年陈年茅台酒 （ 2018年产 ）500ml",
+            "APPPrice": 11500.0,
+            "Pic": "2019/0812/fad4fda9e94149bc9921c8532c456229.jpg",
+            "BagExplain": "",
+            "SumComment": 11,
+            "GoodCommment": "11",
+            "ActivityName": []
+        },
+        {
+            "ID": 11,
+            "ProductName": "53度 茅台 50年 五十年陈年茅台酒 （ 2018年产 ）500ml",
+            "APPPrice": 18800.0,
+            "Pic": "2019/0823/350b1ee8f7234527b7409474be3568cb.jpg",
+            "BagExplain": "",
+            "SumComment": 1,
+            "GoodCommment": "1",
+            "ActivityName": []
+        },
+        {
+            "ID": 12,
+            "ProductName": "53度 茅台 新世纪 （2011年产）500ml",
+            "APPPrice": 3299.0,
+            "Pic": "2018/0913/0cb716dfee28410e8dab991d63b503b7.jpg",
+            "BagExplain": "",
+            "SumComment": 12,
+            "GoodCommment": "12",
+            "ActivityName": []
+        },
+        {
+            "ID": 88,
+            "ProductName": "53度 茅台飞天 （2017年产） 1000ml",
+            "APPPrice": 6058.0,
+            "Pic": "2016/1028/845ca3c6b5eb4d7b98f5e628afef4762.jpg",
+            "BagExplain": "",
+            "SumComment": 44,
+            "GoodCommment": "40",
+            "ActivityName": []
+        },
+        {
+            "ID": 315,
+            "ProductName": "53度 茅台 鸟巢酒 （礼盒装2012年产） 500ml",
+            "APPPrice": 2599.0,
+            "Pic": "2019/0823/e801c15f14da4ba482cd5d40b14223b9.jpg",
+            "BagExplain": "",
+            "SumComment": 26,
+            "GoodCommment": "26",
+            "ActivityName": []
+        },
+        {
+            "ID": 425,
+            "ProductName": "43度 茅台飞天 （ 2017年产 ）400ml",
+            "APPPrice": 899.0,
+            "Pic": "2019/0401/108c7e25ab144b8983323805b7d0a75d.jpg",
+            "BagExplain": "",
+            "SumComment": 19,
+            "GoodCommment": "18",
+            "ActivityName": []
+        },
+        {
+            "ID": 523,
+            "ProductName": "53度 茅台 世博 喜酒 （ 2010年产 ）500ml",
+            "APPPrice": 4988.0,
+            "Pic": "2019/0823/9b657000f9fa4eabbd1d785e2c04c391.jpg",
+            "BagExplain": "",
+            "SumComment": 13,
+            "GoodCommment": "13",
+            "ActivityName": []
+        },
+        {
+            "ID": 534,
+            "ProductName": "53度 茅台飞天 高尔夫 （ 2018年产 ） 500ml",
+            "APPPrice": 3399.0,
+            "Pic": "2019/0820/786b6d1d22f540999679b7dcca3c17f7.jpg",
+            "BagExplain": "两瓶一个手提袋",
+            "SumComment": 31,
+            "GoodCommment": "30",
+            "ActivityName": []
+        },
+        {
+            "ID": 657,
+            "ProductName": "53度 茅台 贵宾酒 （ 2018年产 ）500ml",
+            "APPPrice": 3099.0,
+            "Pic": "2019/0823/69f4c3982fd04beeae2e6c012b738438.jpg",
+            "BagExplain": "",
+            "SumComment": 15,
+            "GoodCommment": "15",
+            "ActivityName": []
+        },
+        {
+            "ID": 684,
+            "ProductName": "53度 茅台 金奖纪念酒 （2016年产）500ml",
+            "APPPrice": 3899.0,
+            "Pic": "2019/0823/904eaa36190e4771b99a34ffd045c999.jpg",
+            "BagExplain": "",
+            "SumComment": 8,
+            "GoodCommment": "8",
+            "ActivityName": []
+        },
+        {
+            "ID": 685,
+            "ProductName": "53度 茅台 书画院纪念酒 500ml",
+            "APPPrice": 3399.0,
+            "Pic": "2017/0706/66c903c419924db584ea51fc6011705d.jpg",
+            "BagExplain": "",
+            "SumComment": 14,
+            "GoodCommment": "14",
+            "ActivityName": []
+        },
+        {
+            "ID": 757,
+            "ProductName": "53度 茅台 珍品（木盒） 500ml",
+            "APPPrice": 3299.0,
+            "Pic": "2018/1023/a650bb771907416cbce583032a2fd969.jpg",
+            "BagExplain": "",
+            "SumComment": 2,
+            "GoodCommment": "2",
+            "ActivityName": []
+        },
+        {
+            "ID": 940,
+            "ProductName": "53度 茅台 珍品（礼盒装）（ 2019年产 ） 375ml",
+            "APPPrice": 2199.0,
+            "Pic": "2019/0816/0171c9bc5c6c45d399183f7568dec2b0.jpg",
+            "BagExplain": "",
+            "SumComment": 36,
+            "GoodCommment": "35",
+            "ActivityName": []
+        },
+        {
+            "ID": 1334,
+            "ProductName": "53度 茅台 孔子纪念酒 （ 2018年产 ）500ml",
+            "APPPrice": 2999.0,
+            "Pic": "2019/0823/d2cea7ba5f324cd2a0ea08de53d593a8.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 36,
+            "GoodCommment": "34",
+            "ActivityName": []
+        }
+    ]
+}
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a3a"),
+    "name": "putaojiu-lafeixilie",
+    "Prolist": [{
+            "ID": 1237,
+            "ProductName": "智利 拉菲 华诗歌 巴斯克 赤霞珠 红葡萄酒 750ml",
+            "APPPrice": 89.0,
+            "Pic": "2017/0627/6adfe5f80b0941bb8df19d86701988c0.jpg",
+            "BagExplain": ".",
+            "SumComment": 40,
+            "GoodCommment": "40",
+            "ActivityName": []
+        },
+        {
+            "ID": 1238,
+            "ProductName": "法国 拉菲 传说波尔多AOC 红葡萄酒  750ml",
+            "APPPrice": 69.0,
+            "Pic": "2017/0510/831468d61f594770be0a393edc05a750.jpg",
+            "BagExplain": "无手提袋",
+            "SumComment": 124,
+            "GoodCommment": "119",
+            "ActivityName": []
+        },
+        {
+            "ID": 1239,
+            "ProductName": "法国 拉菲 传奇波尔多AOC 红葡萄酒 750ml",
+            "APPPrice": 79.0,
+            "Pic": "2017/0527/418ff41a27584913a07cb1645059bd89.jpg",
+            "BagExplain": "",
+            "SumComment": 177,
+            "GoodCommment": "173",
+            "ActivityName": []
+        },
+        {
+            "ID": 2546,
+            "ProductName": "法国 格拉夫列级酒庄 史密斯拉菲特庄园 2007年 750ml",
+            "APPPrice": 819.0,
+            "Pic": "2018/0309/9c3de274f4104f87a1f52eb1ae7a99b7.jpg",
+            "BagExplain": "",
+            "SumComment": 8,
+            "GoodCommment": "8",
+            "ActivityName": []
+        },
+        {
+            "ID": 3007,
+            "ProductName": "法国 1855年列级名庄 一级庄 拉菲庄园副牌 干红葡萄酒 2015 750ml",
+            "APPPrice": 3999.0,
+            "Pic": "2019/0523/2d6fd89e90d44fc3872f0cef874bbd67.jpg",
+            "BagExplain": "",
+            "SumComment": 4,
+            "GoodCommment": "4",
+            "ActivityName": []
+        },
+        {
+            "ID": 3022,
+            "ProductName": "法国 1855年列级名庄 四级庄 拉菲 都夏米隆庄园 红葡萄酒 2008 750ml",
+            "APPPrice": 1729.0,
+            "Pic": "2018/0309/cd1e9bde28f44f4ea3a32108add92196.jpg",
+            "BagExplain": "",
+            "SumComment": 2,
+            "GoodCommment": "2",
+            "ActivityName": []
+        },
+        {
+            "ID": 3052,
+            "ProductName": "法国 1855年列级名庄 一级庄 拉菲庄园（大拉菲） 红葡萄酒 2009 750ml",
+            "APPPrice": 17288.0,
+            "Pic": "2018/0309/285c8eb3ed6f479989fbba79e8f14c51.jpg",
+            "BagExplain": "",
+            "SumComment": 3,
+            "GoodCommment": "3",
+            "ActivityName": []
+        },
+        {
+            "ID": 4320,
+            "ProductName": "法国 拉菲 传说波尔多 AOC级红葡萄酒 750ml*6瓶【整箱装】",
+            "APPPrice": 359.0,
+            "Pic": "2019/0710/7d154d3f0dd54625aed8095a93a70bea.jpg",
+            "BagExplain": "无手提袋",
+            "SumComment": 39,
+            "GoodCommment": "36",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 4321,
+            "ProductName": "法国 拉菲 传奇波尔多AOC 红葡萄酒 750ml*6瓶【整箱装】",
+            "APPPrice": 359.0,
+            "Pic": "2019/0710/f024d3dbf1db4127897360a0eb41b257.jpg",
+            "BagExplain": "无手提袋",
+            "SumComment": 102,
+            "GoodCommment": "97",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 5887,
+            "ProductName": "法国 拉菲 珍藏波尔多 红葡萄酒 750ml",
+            "APPPrice": 89.0,
+            "Pic": "2016/0805/0cec695f785c4d509ee2aa4ad2225ead.jpg",
+            "BagExplain": "无手提袋",
+            "SumComment": 51,
+            "GoodCommment": "51",
+            "ActivityName": []
+        },
+        {
+            "ID": 5923,
+            "ProductName": "法国 拉菲 珍藏波尔多 红葡萄酒750ml*6瓶【整箱装】",
+            "APPPrice": 409.0,
+            "Pic": "2019/0710/9c4bdd5450eb4df8b43f50e6f088df66.jpg",
+            "BagExplain": "",
+            "SumComment": 51,
+            "GoodCommment": "51",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 6343,
+            "ProductName": "法国 拉菲 尚品波尔多 红葡萄酒750ml【带ASC防伪码】",
+            "APPPrice": 99.0,
+            "Pic": "2017/0510/0a4e7ebe023f4d4782a4d41e4ed92b09.jpg",
+            "BagExplain": "",
+            "SumComment": 19,
+            "GoodCommment": "19",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 7116,
+            "ProductName": "法国 拉菲 奥希耶红 红葡萄酒 750ml",
+            "APPPrice": 79.0,
+            "Pic": "2017/0511/67d7e65272394a7fabbefccf5eb15b74.jpg",
+            "BagExplain": "",
+            "SumComment": 66,
+            "GoodCommment": "64",
+            "ActivityName": []
+        },
+        {
+            "ID": 7117,
+            "ProductName": "法国 拉菲 奥希耶西慕 红葡萄酒 750ml",
+            "APPPrice": 196.0,
+            "Pic": "2017/0511/2aee097176754e40b9530c1727121acc.jpg",
+            "BagExplain": "",
+            "SumComment": 14,
+            "GoodCommment": "14",
+            "ActivityName": [{
+                "Ativityname": "赠品促销"
+            }]
+        },
+        {
+            "ID": 7118,
+            "ProductName": "法国 中级庄 上梅多克产区 拉菲 岩石古堡 红葡萄酒 750ml",
+            "APPPrice": 168.0,
+            "Pic": "2018/0614/9c5f04f625314301b624167325fec3dd.jpg",
+            "BagExplain": "",
+            "SumComment": 30,
+            "GoodCommment": "30",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 7120,
+            "ProductName": "法国 拉菲 奥希耶徽纹 红葡萄酒 750ml",
+            "APPPrice": 198.0,
+            "Pic": "2017/0511/2788424d52a041e0ad5f94715fd5c453.jpg",
+            "BagExplain": "",
+            "SumComment": 29,
+            "GoodCommment": "29",
+            "ActivityName": []
+        },
+        {
+            "ID": 7209,
+            "ProductName": "法国 拉菲 传奇波亚克 红葡萄酒 750ml【带ASC防伪码】",
+            "APPPrice": 568.0,
+            "Pic": "2018/0516/6d2f901ef1a04254b3d7f8cf7827ddcd.jpg",
+            "BagExplain": "",
+            "SumComment": 16,
+            "GoodCommment": "16",
+            "ActivityName": []
+        },
+        {
+            "ID": 7211,
+            "ProductName": "法国 拉菲 凯萨天堂 红葡萄酒 750ml【带ASC防伪码】",
+            "APPPrice": 499.0,
+            "Pic": "2018/0516/4efecd98380f4c19b52310f5684b35d4.jpg",
+            "BagExplain": "",
+            "SumComment": 10,
+            "GoodCommment": "10",
+            "ActivityName": []
+        },
+        {
+            "ID": 7216,
+            "ProductName": "智利 拉菲巴斯克十世 华诗歌十世 红葡萄酒 2013 750ml 【带ASC防伪码】",
+            "APPPrice": 439.0,
+            "Pic": "2017/0512/9128472ae8e84c238261981d53131148.jpg",
+            "BagExplain": "",
+            "SumComment": 14,
+            "GoodCommment": "14",
+            "ActivityName": []
+        },
+        {
+            "ID": 7217,
+            "ProductName": "阿根廷 拉菲凯洛 红葡萄酒 750ml【带ASC防伪码】",
+            "APPPrice": 519.0,
+            "Pic": "2017/0608/884752f0668340fb849bc69ff2a0b49c.jpg",
+            "BagExplain": "",
+            "SumComment": 14,
+            "GoodCommment": "14",
+            "ActivityName": []
+        }
+    ]
+}
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a3c"),
+    "name": "baijiu-jiannanchun",
+    "Prolist": [{
+            "ID": 35,
+            "ProductName": "52度 剑南春 500ml",
+            "APPPrice": 429.0,
+            "Pic": "2017/0225/cb2a83e93b5a46c493d01aceb5f3c4ab.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 529,
+            "GoodCommment": "517",
+            "ActivityName": []
+        },
+        {
+            "ID": 36,
+            "ProductName": "38度 剑南春 500ml",
+            "APPPrice": 399.0,
+            "Pic": "2018/0317/e71ce8ed769249ef9e647e7be875d79c.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 47,
+            "GoodCommment": "47",
+            "ActivityName": []
+        },
+        {
+            "ID": 640,
+            "ProductName": "52度 剑南春 1000ml",
+            "APPPrice": 788.0,
+            "Pic": "2017/0621/957cfe955d5c4520bcb011105f49f674.jpg",
+            "BagExplain": "每购买两瓶送一个手提袋",
+            "SumComment": 116,
+            "GoodCommment": "114",
+            "ActivityName": []
+        },
+        {
+            "ID": 663,
+            "ProductName": "52度 剑南春 天益老号珍藏级 500ml",
+            "APPPrice": 628.0,
+            "Pic": "2017/0621/dedd3bb0715449f28c254ac0194e4ec5.jpg",
+            "BagExplain": "每购买1瓶，即赠送原厂手提袋1个",
+            "SumComment": 261,
+            "GoodCommment": "253",
+            "ActivityName": []
+        },
+        {
+            "ID": 3424,
+            "ProductName": "52度 剑南春 金剑南 K9 500ml",
+            "APPPrice": 219.0,
+            "Pic": "2018/0312/48945bfd4dfa4fd2a836f2ac443e87fb.jpg",
+            "BagExplain": "",
+            "SumComment": 53,
+            "GoodCommment": "52",
+            "ActivityName": []
+        },
+        {
+            "ID": 5136,
+            "ProductName": "38度 剑南春 天益老号珍藏级 (2012年产) 500ml",
+            "APPPrice": 429.0,
+            "Pic": "2019/0315/1128f3fc3be449b7ac18ba92da82c33f.jpg",
+            "BagExplain": "",
+            "SumComment": 14,
+            "GoodCommment": "13",
+            "ActivityName": []
+        },
+        {
+            "ID": 5848,
+            "ProductName": "52度 剑南醇 精品 500ml",
+            "APPPrice": 79.0,
+            "Pic": "2015/0107/85172bf9ac624edc938ba482761ce2f8.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 20,
+            "GoodCommment": "19",
+            "ActivityName": []
+        },
+        {
+            "ID": 5851,
+            "ProductName": "42度 剑南醇 喜庆装 500ml（光瓶）",
+            "APPPrice": 82.0,
+            "Pic": "2018/0317/1949b8dc2fb54086a378eaf576f56a2e.jpg",
+            "BagExplain": "无手提袋",
+            "SumComment": 39,
+            "GoodCommment": "39",
+            "ActivityName": []
+        },
+        {
+            "ID": 6138,
+            "ProductName": "52度 剑南春 天益老号 珍藏级 250ml (光瓶装)",
+            "APPPrice": 299.0,
+            "Pic": "2018/0321/ffb1b438b5444c17949fc3323a007c40.jpg",
+            "BagExplain": "",
+            "SumComment": 108,
+            "GoodCommment": "104",
+            "ActivityName": []
+        },
+        {
+            "ID": 6188,
+            "ProductName": "52度 剑南春 剑南老窖2006 500ml",
+            "APPPrice": 80.0,
+            "Pic": "2017/0621/dc84b9226f1548a4ac3eef4f4e842001.jpg",
+            "BagExplain": "",
+            "SumComment": 34,
+            "GoodCommment": "33",
+            "ActivityName": []
+        },
+        {
+            "ID": 6574,
+            "ProductName": "【整箱装】52度 剑南春 剑南老窖2006 500ml*6瓶",
+            "APPPrice": 488.0,
+            "Pic": "2019/0809/d04e845023a24ae893c9122826c0098a.jpg",
+            "BagExplain": "",
+            "SumComment": 60,
+            "GoodCommment": "58",
+            "ActivityName": [{
+                "Ativityname": "满额立减"
+            }]
+        },
+        {
+            "ID": 6894,
+            "ProductName": "52度 剑南春 金剑南 K6 500ml",
+            "APPPrice": 139.0,
+            "Pic": "2018/0316/254d1dd077e4451ebb7d7c4e48c46209.jpg",
+            "BagExplain": "",
+            "SumComment": 44,
+            "GoodCommment": "44",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 7734,
+            "ProductName": "【整箱装】52度 绵竹大曲 500ml*12瓶",
+            "APPPrice": 99.0,
+            "Pic": "2018/1025/0cfc921bd6c446de903de5a14706d7cd.jpg",
+            "BagExplain": "",
+            "SumComment": 9,
+            "GoodCommment": "9",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 7854,
+            "ProductName": "【整箱装】38度 剑南春3号 绵竹头曲 精品(2013年产) 500ml*6瓶",
+            "APPPrice": 129.0,
+            "Pic": "2019/0809/00685b3354804e80b4ff8aaee43c120a.jpg",
+            "BagExplain": "",
+            "SumComment": 6,
+            "GoodCommment": "6",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 7990,
+            "ProductName": "52度 剑南春 天益老号珍藏级 ( 2015年产 ) 500ml",
+            "APPPrice": 658.0,
+            "Pic": "2019/0729/4e8533bf0807402c99f41e44707b60c7.jpg",
+            "BagExplain": "",
+            "SumComment": 0,
+            "GoodCommment": null,
+            "ActivityName": []
+        }
+    ]
+}
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a3e"),
+    "name": "baijiu-fenjiu",
+    "Prolist": [{
+            "ID": 431,
+            "ProductName": "53度 汾酒 黑坛20 475ml",
+            "APPPrice": 338.0,
+            "Pic": "2017/0105/449d42d9cfac4879811640668b83859b.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 51,
+            "GoodCommment": "46",
+            "ActivityName": []
+        },
+        {
+            "ID": 433,
+            "ProductName": "38度 竹叶青 金象 500ml",
+            "APPPrice": 89.0,
+            "Pic": "2018/0330/5951c3bbeba34b48ab419ec638757759.jpg",
+            "BagExplain": "",
+            "SumComment": 14,
+            "GoodCommment": "13",
+            "ActivityName": []
+        },
+        {
+            "ID": 436,
+            "ProductName": "53度 汾酒 老白汾酒 10 475ml",
+            "APPPrice": 158.0,
+            "Pic": "2018/0428/f58c759fe2f646bf9fa943d6e218a725.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 67,
+            "GoodCommment": "62",
+            "ActivityName": []
+        },
+        {
+            "ID": 567,
+            "ProductName": "53度 汾酒 青花30年 500ml",
+            "APPPrice": 888.0,
+            "Pic": "2017/1117/4088267c32f9420aace6345ea90192e8.jpg",
+            "BagExplain": "",
+            "SumComment": 72,
+            "GoodCommment": "69",
+            "ActivityName": [{
+                "Ativityname": "赠品促销"
+            }]
+        },
+        {
+            "ID": 2168,
+            "ProductName": "53度 汾酒 青花20年 500ml",
+            "APPPrice": 578.0,
+            "Pic": "2017/1117/56cd7fd4445f45f9b3ba06819565a77a.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 66,
+            "GoodCommment": "64",
+            "ActivityName": []
+        },
+        {
+            "ID": 2200,
+            "ProductName": "53度 汾酒 老白汾酒醇柔 475ml",
+            "APPPrice": 109.0,
+            "Pic": "2017/0831/bbe0ca0227c744939fc22d5a07039eff.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 64,
+            "GoodCommment": "61",
+            "ActivityName": []
+        }
+    ]
+}
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a40"),
+    "name": "baijiu-xiaohutuxian",
+    "Prolist": [{
+            "ID": 94,
+            "ProductName": "52度 小糊涂仙 500ml",
+            "APPPrice": 148.0,
+            "Pic": "2019/0525/d8086843572644efa3725d40f1833fe3.jpg",
+            "BagExplain": "无手提袋",
+            "SumComment": 184,
+            "GoodCommment": "180",
+            "ActivityName": []
+        },
+        {
+            "ID": 95,
+            "ProductName": "52度 小糊涂仙 250ml",
+            "APPPrice": 79.0,
+            "Pic": "2018/0420/12709bd3efa84323add7d847bdf91695.jpg",
+            "BagExplain": "无手提袋",
+            "SumComment": 36,
+            "GoodCommment": "35",
+            "ActivityName": []
+        },
+        {
+            "ID": 2446,
+            "ProductName": "38度 小糊涂仙 500ml",
+            "APPPrice": 138.0,
+            "Pic": "2019/0528/c05c0b5c6928494eac383081629a0f9e.jpg",
+            "BagExplain": "",
+            "SumComment": 2,
+            "GoodCommment": "2",
+            "ActivityName": []
+        },
+        {
+            "ID": 3237,
+            "ProductName": "52度 小糊涂仙 六年陈酿 500ml",
+            "APPPrice": 256.0,
+            "Pic": "2013/0130/c1201c9329984e2cb5717e78ecca82bd.jpg",
+            "BagExplain": "无手提袋",
+            "SumComment": 3,
+            "GoodCommment": "3",
+            "ActivityName": []
+        },
+        {
+            "ID": 4449,
+            "ProductName": "52度 小糊涂仙 十五年陈酿 500ml",
+            "APPPrice": 556.0,
+            "Pic": "2014/0519/f5299814ff14496c97136e79c4449d26.jpg",
+            "BagExplain": "无手提袋",
+            "SumComment": 28,
+            "GoodCommment": "28",
+            "ActivityName": []
+        },
+        {
+            "ID": 7993,
+            "ProductName": "52度 金装糊涂酒 500ml",
+            "APPPrice": 98.0,
+            "Pic": "2019/0808/c82cc780086f4fe9a5c0931d3caae92f.jpg",
+            "BagExplain": "",
+            "SumComment": 1,
+            "GoodCommment": "1",
+            "ActivityName": []
+        }
+    ]
+}
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a42"),
+    "name": "putaojiu-benfu",
+    "Prolist": [{
+            "ID": 822,
+            "ProductName": "澳大利亚 奔富 BIN128 库拉瓦拉 设拉子 红葡萄酒 750ml",
+            "APPPrice": 318.0,
+            "Pic": "2019/0709/a0338cdbf98e4844a7c3435dac8c71e9.jpg",
+            "BagExplain": "",
+            "SumComment": 64,
+            "GoodCommment": "63",
+            "ActivityName": []
+        },
+        {
+            "ID": 823,
+            "ProductName": "澳大利亚 奔富 洛神山庄 设拉子赤霞珠 红葡萄酒 750ml",
+            "APPPrice": 78.0,
+            "Pic": "2019/0708/4221711f146442949f7dffcc732050ed.jpg",
+            "BagExplain": "",
+            "SumComment": 62,
+            "GoodCommment": "61",
+            "ActivityName": []
+        },
+        {
+            "ID": 825,
+            "ProductName": "澳大利亚 奔富 BIN2 西拉子慕合怀特葡萄酒 750ml",
+            "APPPrice": 179.0,
+            "Pic": "2019/0709/97e2ca20ba574c14a99c3155d8f59791.jpg",
+            "BagExplain": "",
+            "SumComment": 31,
+            "GoodCommment": "29",
+            "ActivityName": []
+        },
+        {
+            "ID": 3872,
+            "ProductName": "澳大利亚 奔富 蔻兰山 寇兰山 秋日雷司令 白葡萄酒 750ml",
+            "APPPrice": 108.0,
+            "Pic": "2019/0709/ac850777c9074c0ab1a6adf99f962d1a.jpg",
+            "BagExplain": "",
+            "SumComment": 6,
+            "GoodCommment": "6",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 4053,
+            "ProductName": "澳大利亚 奔富蔻兰山 寇兰山76 西拉赤霞珠 红葡萄酒 750ml",
+            "APPPrice": 118.0,
+            "Pic": "2019/0709/af14b6cb0dc049cfae3c4eb05dc5ed85.jpg",
+            "BagExplain": "",
+            "SumComment": 6,
+            "GoodCommment": "6",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        }
+    ]
+}
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a44"),
+    "name": "yangjiu-zunnihuojia",
+    "Prolist": [{
+            "ID": 213,
+            "ProductName": "英国 尊尼获加Johnnie Walker 红牌威士忌 700ml",
+            "APPPrice": 99.0,
+            "Pic": "2018/0329/448f60b7a12b4c9aa9c9cca8b656bbcc.jpg",
+            "BagExplain": "",
+            "SumComment": 42,
+            "GoodCommment": "38",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 214,
+            "ProductName": "英国 尊尼获加Johnnie Walker 黑牌威士忌黑方 700ml 带盒带码",
+            "APPPrice": 188.0,
+            "Pic": "2019/0624/4dcf073a9c5c4c8594227c716b0084b0.jpg",
+            "BagExplain": "",
+            "SumComment": 48,
+            "GoodCommment": "47",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        }
+    ]
+}
+
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a48"),
+    "name": "baijiu-langjiu",
+    "Prolist": [{
+            "ID": 389,
+            "ProductName": "53度 郎酒 10年 红花郎 500ml",
+            "APPPrice": 358.0,
+            "Pic": "2017/0309/e32fb10d420d443688d028f00be09c78.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 322,
+            "GoodCommment": "312",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 390,
+            "ProductName": "53度 郎酒 15年 红花郎 500ml",
+            "APPPrice": 519.0,
+            "Pic": "2017/0309/5f8f43e8aa7d4984a24901a5052fa7c5.jpg",
+            "BagExplain": "",
+            "SumComment": 151,
+            "GoodCommment": "140",
+            "ActivityName": []
+        },
+        {
+            "ID": 391,
+            "ProductName": "53度 郎酒 青花郎 500ml",
+            "APPPrice": 979.0,
+            "Pic": "2019/0730/f6831f4190c341e18027a37cf634c94c.jpg",
+            "BagExplain": "",
+            "SumComment": 135,
+            "GoodCommment": "130",
+            "ActivityName": []
+        },
+        {
+            "ID": 465,
+            "ProductName": "39度 郎酒 1898老郎酒 500ml",
+            "APPPrice": 199.0,
+            "Pic": "2019/0730/14fd1ec02aa84061a90144f8f5884de2.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 218,
+            "GoodCommment": "216",
+            "ActivityName": []
+        },
+        {
+            "ID": 786,
+            "ProductName": "53度 郎酒 30年 红运郎 （ 2011年产 ）500ml",
+            "APPPrice": 3999.0,
+            "Pic": "2019/0730/ee6d9bccd6d44f4c9666b3b53aef098f.jpg",
+            "BagExplain": "",
+            "SumComment": 7,
+            "GoodCommment": "6",
+            "ActivityName": []
+        },
+        {
+            "ID": 787,
+            "ProductName": "53度 郎酒 50年 青云郎 500ml",
+            "APPPrice": 9700.0,
+            "Pic": "2018/0522/28e884d1d7f24f1f82bcdbf9a36b430a.jpg",
+            "BagExplain": "",
+            "SumComment": 3,
+            "GoodCommment": "3",
+            "ActivityName": []
+        },
+        {
+            "ID": 1432,
+            "ProductName": "53度 郎酒 百年纪念酒 3668ml",
+            "APPPrice": 99000.0,
+            "Pic": "2018/0522/bed936e622a74b02abffcd06f6a1e5e9.jpg",
+            "BagExplain": "",
+            "SumComment": 2,
+            "GoodCommment": "2",
+            "ActivityName": []
+        },
+        {
+            "ID": 1588,
+            "ProductName": "52度 郎酒 12年陈 新郎酒 （ 2011年产 ）500ml",
+            "APPPrice": 429.0,
+            "Pic": "2019/0730/947f3e8b038f40ff880369a401a6ee78.jpg",
+            "BagExplain": "每购买1瓶，即赠送原厂手提袋1个",
+            "SumComment": 27,
+            "GoodCommment": "23",
+            "ActivityName": []
+        },
+        {
+            "ID": 1589,
+            "ProductName": "52度 郎酒 9年陈 新郎酒 500ml",
+            "APPPrice": 259.0,
+            "Pic": "2019/0730/5a3a295912df4218b206e109db5ae878.jpg",
+            "BagExplain": "",
+            "SumComment": 71,
+            "GoodCommment": "68",
+            "ActivityName": []
+        }
+    ]
+}
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a4a"),
+    "name": "baijiu-wuliangye",
+    "Prolist": [{
+            "ID": 14,
+            "ProductName": "52度 五粮液（第七代） 500ml",
+            "APPPrice": 1199.0,
+            "Pic": "2018/0523/472d0547a9c44a4488d04dc5eabbf2e1.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 322,
+            "GoodCommment": "310",
+            "ActivityName": []
+        },
+        {
+            "ID": 15,
+            "ProductName": "39度 五粮液 500ml",
+            "APPPrice": 749.0,
+            "Pic": "2018/0326/f16b092ac0c841c7b2fdc5b1057c8283.jpg",
+            "BagExplain": "",
+            "SumComment": 5,
+            "GoodCommment": "5",
+            "ActivityName": []
+        },
+        {
+            "ID": 16,
+            "ProductName": "52度 五粮液 1618 500ml",
+            "APPPrice": 1099.0,
+            "Pic": "2017/0225/7e1c699d6b76461fa32afb0374f2c653.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 186,
+            "GoodCommment": "172",
+            "ActivityName": []
+        },
+        {
+            "ID": 17,
+            "ProductName": "39度 五粮液 1618 500ml",
+            "APPPrice": 1099.0,
+            "Pic": "2018/0326/bc36789a3a8c4bbebec804551add8e9d.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 25,
+            "GoodCommment": "24",
+            "ActivityName": []
+        },
+        {
+            "ID": 19,
+            "ProductName": "68度 五粮液 500ml",
+            "APPPrice": 899.0,
+            "Pic": "2017/0821/ac669ad58d904aef8ed0ef87a4949725.jpg",
+            "BagExplain": "",
+            "SumComment": 82,
+            "GoodCommment": "78",
+            "ActivityName": []
+        },
+        {
+            "ID": 20,
+            "ProductName": "56度 五粮液 老酒（ 2012年产 ）  500ml",
+            "APPPrice": 1699.0,
+            "Pic": "2019/0528/75c181fcaccf4032af86361c6db4e2dd.jpg",
+            "BagExplain": "每购买1瓶，即赠送原厂手提袋1个",
+            "SumComment": 123,
+            "GoodCommment": "119",
+            "ActivityName": []
+        },
+        {
+            "ID": 22,
+            "ProductName": "50度 五粮液 10 陈酿（非十年 /10年）） 玻璃装 500ml",
+            "APPPrice": 1399.0,
+            "Pic": "2016/1024/562f61966dd140f983ca9e0c93c79365.jpg",
+            "BagExplain": "每购买1瓶，即赠送原厂手提袋1个",
+            "SumComment": 97,
+            "GoodCommment": "95",
+            "ActivityName": []
+        }
+    ]
+}
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a4c"),
+    "name": "putaojiu-zhongjizhuang",
+    "Prolist": [{
+            "ID": 7585,
+            "ProductName": "法国 中级庄 玛歌产区 骊歌古堡 Chateau Labegorce 红葡萄酒 2015年 14%vol 750ml",
+            "APPPrice": 558.0,
+            "Pic": "2018/0314/77b7be8141e94baa9ef900d02ab08050.jpg",
+            "BagExplain": "",
+            "SumComment": 21,
+            "GoodCommment": "21",
+            "ActivityName": []
+        },
+        {
+            "ID": 7628,
+            "ProductName": "法国 中级庄 梅多克产区贝桥 佩桥城堡 Chateau Pey De Pont 红葡萄酒 2014年 750ml",
+            "APPPrice": 99.0,
+            "Pic": "2018/0416/171bd05bec1245f786ee0052cf6cf137.jpg",
+            "BagExplain": "",
+            "SumComment": 6,
+            "GoodCommment": "6",
+            "ActivityName": []
+        },
+        {
+            "ID": 7637,
+            "ProductName": "法国 中级庄 梅多克产区贝桥 佩桥城堡 Chateau Pey De Pont 红葡萄酒 2013年 750ml",
+            "APPPrice": 98.0,
+            "Pic": "2018/0524/0b5c53326e644c31b70c6d4f35834042.jpg",
+            "BagExplain": "",
+            "SumComment": 17,
+            "GoodCommment": "17",
+            "ActivityName": []
+        },
+        {
+            "ID": 7658,
+            "ProductName": "法国 中级庄 梅多克贝桥 佩桥城堡 Chateau Pey De Pont 红葡萄酒 750ml*6【整箱装】",
+            "APPPrice": 529.0,
+            "Pic": "2019/0710/9ab33df7f6124d87a831704b7ffc545b.jpg",
+            "BagExplain": "",
+            "SumComment": 8,
+            "GoodCommment": "8",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        }
+    ]
+}
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a4e"),
+    "name": "yangjiu-gelanfeidi",
+    "Prolist": [{
+            "ID": 1080,
+            "ProductName": "英国 格兰菲迪 12年 单一纯麦威士忌 700ml",
+            "APPPrice": 208.0,
+            "Pic": "2012/0320/a90210f3e0684adbbddcd7fc7d58dcc6.JPG",
+            "BagExplain": "",
+            "SumComment": 34,
+            "GoodCommment": "34",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 1082,
+            "ProductName": "英国 格兰菲迪 18年 单一纯麦威士忌 700ml",
+            "APPPrice": 468.0,
+            "Pic": "2018/0905/4c1ff9458c9f40f09fda7b0fd274c34a.jpg",
+            "BagExplain": "",
+            "SumComment": 17,
+            "GoodCommment": "16",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        }
+    ]
+}
+
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a52"),
+    "name": "baijiu-gujinggongjiu",
+    "Prolist": [{
+            "ID": 352,
+            "ProductName": "50度 古井贡酒 年份原浆 足球酒 4000ml",
+            "APPPrice": 1980.0,
+            "Pic": "2018/0611/5da87d9f7207457da22ea8615032f8bf.jpg",
+            "BagExplain": "",
+            "SumComment": 11,
+            "GoodCommment": "10",
+            "ActivityName": []
+        },
+        {
+            "ID": 353,
+            "ProductName": "55度 古井贡酒 十年陈酿 曹操瓶 ( 2009年产 ) 750ml",
+            "APPPrice": 558.0,
+            "Pic": "2019/0329/a47f9e3b2ece475b9ee5ea715eb476e1.jpg",
+            "BagExplain": "",
+            "SumComment": 7,
+            "GoodCommment": "7",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 485,
+            "ProductName": "50度 古井贡酒 8年份 原浆酒 500ml",
+            "APPPrice": 288.0,
+            "Pic": "2018/0125/ab6f67c1ddc04dc6a659c5aa0bbc877d.jpg",
+            "BagExplain": "",
+            "SumComment": 34,
+            "GoodCommment": "34",
+            "ActivityName": []
+        },
+        {
+            "ID": 488,
+            "ProductName": "50度 古井贡酒 5年份 原浆酒 500ml",
+            "APPPrice": 178.0,
+            "Pic": "2018/0125/6dcda03470fa4c4bac6819c4e153d02b.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 42,
+            "GoodCommment": "41",
+            "ActivityName": []
+        }
+    ]
+}
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a54"),
+    "name": "putaojiu-huangweidaishu",
+    "Prolist": [{
+            "ID": 3291,
+            "ProductName": "澳大利亚 黄尾袋鼠 西拉红葡萄酒 750ml",
+            "APPPrice": 59.0,
+            "Pic": "2017/0927/5f5cbe80485f483b97046f56a85ef9fd.jpg",
+            "BagExplain": "",
+            "SumComment": 76,
+            "GoodCommment": "76",
+            "ActivityName": []
+        },
+        {
+            "ID": 3304,
+            "ProductName": "澳大利亚 黄尾袋鼠 赤霞珠红葡萄酒 750ml",
+            "APPPrice": 59.0,
+            "Pic": "2017/0510/111c0c74cd744fe5b79687eada803401.jpg",
+            "BagExplain": "",
+            "SumComment": 58,
+            "GoodCommment": "58",
+            "ActivityName": []
+        },
+        {
+            "ID": 3305,
+            "ProductName": "澳大利亚 黄尾袋鼠 梅洛红葡萄酒 750ml",
+            "APPPrice": 59.0,
+            "Pic": "2017/0510/5c4e66681c614b6e91421068e9c1bdc1.jpg",
+            "BagExplain": "",
+            "SumComment": 117,
+            "GoodCommment": "117",
+            "ActivityName": []
+        },
+        {
+            "ID": 3709,
+            "ProductName": "澳大利亚 黄尾袋鼠 莫斯卡托 白葡萄酒 750ml",
+            "APPPrice": 59.0,
+            "Pic": "2017/0518/0ad4c91b9ad4433c95a2a452e0e8e135.jpg",
+            "BagExplain": "",
+            "SumComment": 54,
+            "GoodCommment": "54",
+            "ActivityName": []
+        },
+        {
+            "ID": 4323,
+            "ProductName": "澳大利亚 黄尾袋鼠 梅洛红葡萄酒 750ml*6瓶【整箱装】",
+            "APPPrice": 299.0,
+            "Pic": "2019/0710/db97abdc34144fbfa9243bc2bec97289.jpg",
+            "BagExplain": "无手提袋",
+            "SumComment": 30,
+            "GoodCommment": "29",
+            "ActivityName": []
+        }
+    ]
+}
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a56"),
+    "name": "yangjiu-bailingtan",
+    "Prolist": [{
+            "ID": 210,
+            "ProductName": "英国 百龄坛 特醇威士忌 700ml",
+            "APPPrice": 98.0,
+            "Pic": "2019/0617/83fb4a2b81224d1280a51fc2675b6e7b.jpg",
+            "BagExplain": "",
+            "SumComment": 105,
+            "GoodCommment": "103",
+            "ActivityName": []
+        },
+        {
+            "ID": 211,
+            "ProductName": "英国 百龄坛 12年威士忌 700ml",
+            "APPPrice": 199.0,
+            "Pic": "2018/1023/c7fd8ffae5d545edbab3347da05dfaa4.jpg",
+            "BagExplain": "",
+            "SumComment": 8,
+            "GoodCommment": "8",
+            "ActivityName": []
+        },
+        {
+            "ID": 1012,
+            "ProductName": "英国 百龄坛 特醇威士忌 小酒版 50ml",
+            "APPPrice": 29.0,
+            "Pic": "2012/0509/67687c8c366c45b4ade04695bdd367c4.JPG",
+            "BagExplain": "",
+            "SumComment": 25,
+            "GoodCommment": "24",
+            "ActivityName": []
+        }
+    ]
+}
+
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a5a"),
+    "name": "baijiu-shedejiu",
+    "Prolist": [{
+            "ID": 1702,
+            "ProductName": "52度 舍得酒  500ml",
+            "APPPrice": 598.0,
+            "Pic": "2017/0816/9176a66be6ff46e8bcecd02ec3ca2ed0.jpg",
+            "BagExplain": "",
+            "SumComment": 167,
+            "GoodCommment": "165",
+            "ActivityName": [{
+                "Ativityname": "会员价"
+            }]
+        },
+        {
+            "ID": 2954,
+            "ProductName": "52度 舍得 吞之乎 （品鉴装） 600ml",
+            "APPPrice": 1280.0,
+            "Pic": "2018/0424/3f3f7c411dac4463a181626e96e25df2.jpg",
+            "BagExplain": "无手提袋",
+            "SumComment": 5,
+            "GoodCommment": "5",
+            "ActivityName": []
+        },
+        {
+            "ID": 4296,
+            "ProductName": "52度 舍得 吞之乎 500ml",
+            "APPPrice": 1860.0,
+            "Pic": "2018/0424/dbd9b3ba65d5419f927d2e64418f8035.jpg",
+            "BagExplain": "",
+            "SumComment": 23,
+            "GoodCommment": "23",
+            "ActivityName": [{
+                "Ativityname": "赠品促销"
+            }]
+        },
+        {
+            "ID": 4641,
+            "ProductName": "52度 舍得酒 100ml",
+            "APPPrice": 88.0,
+            "Pic": "2018/0621/a06cedf65e85442c90a9682dd8f54902.jpg",
+            "BagExplain": "",
+            "SumComment": 4,
+            "GoodCommment": "4",
+            "ActivityName": []
+        },
+        {
+            "ID": 4857,
+            "ProductName": "52度 舍得酒 （品鉴装） 500ml",
+            "APPPrice": 379.0,
+            "Pic": "2018/0423/07d0579a8fde43e1814e77999a5901ff.jpg",
+            "BagExplain": "",
+            "SumComment": 0,
+            "GoodCommment": null,
+            "ActivityName": []
+        }
+    ]
+}
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a5c"),
+    "name": "putaojiu-liejizhuang",
+    "Prolist": [{
+            "ID": 7583,
+            "ProductName": "法国 1855年列级名庄 五级庄 上梅多克产区 佳得美庄园 2013 红葡萄酒 750ml",
+            "APPPrice": 258.0,
+            "Pic": "2019/0520/5245f06911bf40fa82cac913c336816b.jpg",
+            "BagExplain": "",
+            "SumComment": 1,
+            "GoodCommment": "1",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 7586,
+            "ProductName": "法国 艺术家酒庄 波亚克产区 碧玺城堡 Chateau behere 红葡萄酒 2008年 13%vol 750ml",
+            "APPPrice": 498.0,
+            "Pic": "2018/0315/c0a981511a0e4d8d80b46e46e0d68a7f.jpg",
+            "BagExplain": "",
+            "SumComment": 21,
+            "GoodCommment": "21",
+            "ActivityName": []
+        },
+        {
+            "ID": 7594,
+            "ProductName": "法国 1855年列级名庄 一级庄 玛歌庄园副牌 红葡萄酒 2006 750ml",
+            "APPPrice": 2210.0,
+            "Pic": "2018/0521/eabc425efebd4da5aea8b548198a6c60.jpg",
+            "BagExplain": "",
+            "SumComment": 24,
+            "GoodCommment": "24",
+            "ActivityName": []
+        },
+        {
+            "ID": 7641,
+            "ProductName": "法国 1855年列级名庄 五级庄 靓茨摩斯/浪琴慕沙庄园 红葡萄酒 2014 750ml",
+            "APPPrice": 498.0,
+            "Pic": "2018/0528/107584c35c934188b21aa6764f94dfe2.jpg",
+            "BagExplain": "",
+            "SumComment": 9,
+            "GoodCommment": "9",
+            "ActivityName": []
+        },
+        {
+            "ID": 7642,
+            "ProductName": "法国 1855年列级名庄 五级庄 百德诗歌庄园/佰德诗歌城堡 红葡萄酒 2014 750ml",
+            "APPPrice": 469.0,
+            "Pic": "2018/0528/56a386a3708c40b8b7c5a2f0639ed8e1.jpg",
+            "BagExplain": "",
+            "SumComment": 5,
+            "GoodCommment": "5",
+            "ActivityName": []
+        },
+        {
+            "ID": 7643,
+            "ProductName": "法国 1855年列级名庄 五级庄 歌碧城堡 红葡萄酒 2014 750ml",
+            "APPPrice": 439.0,
+            "Pic": "2018/0528/b573628aaf6248f39a7d6334741d8fc6.jpg",
+            "BagExplain": "",
+            "SumComment": 7,
+            "GoodCommment": "7",
+            "ActivityName": []
+        }
+    ]
+}
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a5e"),
+    "name": "yangjiu-sandeli",
+    "Prolist": [{
+            "ID": 2520,
+            "ProductName": "日本 三得利 山崎 12年单一麦芽威士忌 700ml",
+            "APPPrice": 1740.0,
+            "Pic": "2019/0226/22ec5fbae89b4a718475943f6a85f6d5.jpg",
+            "BagExplain": "",
+            "SumComment": 1,
+            "GoodCommment": "1",
+            "ActivityName": []
+        },
+        {
+            "ID": 7896,
+            "ProductName": "日本 三得利威士忌【响】（和风醇韵）700ml",
+            "APPPrice": 999.0,
+            "Pic": "2019/0226/870dc39da4ab4fd1bfaf9ae202848aca.jpg",
+            "BagExplain": "",
+            "SumComment": 2,
+            "GoodCommment": "2",
+            "ActivityName": []
+        },
+        {
+            "ID": 7907,
+            "ProductName": "日本 山崎 1923 单一麦芽 威士忌 700ml",
+            "APPPrice": 850.0,
+            "Pic": "2019/0322/7c5adf86efa94d1db000e50b0c7000e8.jpg",
+            "BagExplain": "",
+            "SumComment": 1,
+            "GoodCommment": "1",
+            "ActivityName": []
+        }
+    ]
+}
+
+
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a62"),
+    "name": "baijiu-jiuguijiu",
+    "Prolist": [{
+            "ID": 245,
+            "ProductName": "58度酒鬼 钻石版洞藏酒 500ml",
+            "APPPrice": 1188.0,
+            "Pic": "2011/1110/b804aebb64c44e08bc7f35f341038347.jpg",
+            "BagExplain": "",
+            "SumComment": 11,
+            "GoodCommment": "11",
+            "ActivityName": []
+        },
+        {
+            "ID": 252,
+            "ProductName": "52度 酒鬼 内参酒 500ml",
+            "APPPrice": 1399.0,
+            "Pic": "2018/0629/05e2391df21d4d21b1d57fb4a269189c.jpg",
+            "BagExplain": "",
+            "SumComment": 75,
+            "GoodCommment": "73",
+            "ActivityName": []
+        },
+        {
+            "ID": 2528,
+            "ProductName": "52度 酒鬼 精品酒鬼 500ml",
+            "APPPrice": 278.0,
+            "Pic": "2017/0308/eeaeebb91c304b9b841df4163cd182e7.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 89,
+            "GoodCommment": "90",
+            "ActivityName": []
+        },
+        {
+            "ID": 2591,
+            "ProductName": "52度 酒鬼 盛世尚品（红） 500ml",
+            "APPPrice": 229.0,
+            "Pic": "2012/0718/cb385620f24c4f32980a056293adc02c.jpg",
+            "BagExplain": "",
+            "SumComment": 15,
+            "GoodCommment": "15",
+            "ActivityName": []
+        },
+        {
+            "ID": 2593,
+            "ProductName": "52度 酒鬼 万家红火（誉品） 500ml",
+            "APPPrice": 148.0,
+            "Pic": "2017/1106/5e5a6c55f02c42c8a3d8925b4e461272.jpg",
+            "BagExplain": "",
+            "SumComment": 12,
+            "GoodCommment": "12",
+            "ActivityName": []
+        }
+    ]
+}
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a64"),
+    "name": "putaojiu-hongmogui",
+    "wine_classify": null,
+    "Prolist": [{
+            "ID": 3481,
+            "ProductName": "智利 干露 红魔鬼 夏多内白葡萄酒 750ml",
+            "APPPrice": 69.0,
+            "Pic": "2017/1114/9bb335ba62754d3aa8789197d12b3926.jpg",
+            "BagExplain": "",
+            "SumComment": 12,
+            "GoodCommment": "12",
+            "ActivityName": []
+        },
+        {
+            "ID": 3482,
+            "ProductName": "智利 干露 红魔鬼 苏维翁白葡萄酒 750ml",
+            "APPPrice": 69.0,
+            "Pic": "2018/0423/c45fdd6939344150a541f1355a666363.jpg",
+            "BagExplain": "",
+            "SumComment": 16,
+            "GoodCommment": "16",
+            "ActivityName": []
+        },
+        {
+            "ID": 3484,
+            "ProductName": "智利 干露 红魔鬼 黑皮诺红葡萄酒 750ml",
+            "APPPrice": 69.0,
+            "Pic": "2017/0527/dd1cf98b67e34a30b68156b35a028971.jpg",
+            "BagExplain": "",
+            "SumComment": 21,
+            "GoodCommment": "21",
+            "ActivityName": []
+        },
+        {
+            "ID": 3485,
+            "ProductName": "智利 干露 红魔鬼 梅洛红葡萄 750ml",
+            "APPPrice": 69.0,
+            "Pic": "2017/0527/930e3ea315c047159fae605c5cefe7e0.jpg",
+            "BagExplain": "",
+            "SumComment": 37,
+            "GoodCommment": "37",
+            "ActivityName": []
+        },
+        {
+            "ID": 5686,
+            "ProductName": "智利 干露 红魔鬼 梅洛红葡萄酒750ml*6瓶【整箱装】",
+            "APPPrice": 308.0,
+            "Pic": "2019/0711/0d530e3f98fb4a418b01ab77a4288d5e.jpg",
+            "BagExplain": "无手提袋",
+            "SumComment": 16,
+            "GoodCommment": "16",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        }
+    ]
+}
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a66"),
+    "name": "huangjiu-tonglihong",
+    "Prolist": [{
+            "ID": 2086,
+            "ProductName": "同里红 同里人家（福）500ml*6【整箱装】",
+            "APPPrice": 72.0,
+            "Pic": "2018/0504/05468a457fcd4689a06918ff049fb39c.jpg",
+            "BagExplain": "",
+            "SumComment": 4,
+            "GoodCommment": "4",
+            "ActivityName": []
+        },
+        {
+            "ID": 2782,
+            "ProductName": "同里红 同里人家（吉）500ml*6【整箱装】",
+            "APPPrice": 108.0,
+            "Pic": "2018/0504/3a1ad143004f4d9e97285c6018d38dc5.jpg",
+            "BagExplain": "",
+            "SumComment": 2,
+            "GoodCommment": "2",
+            "ActivityName": []
+        },
+        {
+            "ID": 6797,
+            "ProductName": "同里红 同里状元 375ml*6【整箱装】",
+            "APPPrice": 210.0,
+            "Pic": "2018/0514/2500a9e369824dc0b94cc63a47243fe7.jpg",
+            "BagExplain": "",
+            "SumComment": 32,
+            "GoodCommment": "32",
+            "ActivityName": []
+        },
+        {
+            "ID": 6798,
+            "ProductName": "同里红 2009 480ml*6【整箱装】",
+            "APPPrice": 198.0,
+            "Pic": "2018/0514/b263c903430f41f8b3ccc3897b15af57.jpg",
+            "BagExplain": "",
+            "SumComment": 57,
+            "GoodCommment": "57",
+            "ActivityName": []
+        },
+        {
+            "ID": 7490,
+            "ProductName": "同里红 清鉴黄酒 花雕八年陈 桶装 5000ml",
+            "APPPrice": 39.8,
+            "Pic": "2017/1129/c04fb1756969492d8edc5a0dc20c552c.jpg",
+            "BagExplain": "",
+            "SumComment": 23,
+            "GoodCommment": "23",
+            "ActivityName": []
+        },
+        {
+            "ID": 7493,
+            "ProductName": "同里红 海派风情 12年 480ml*6瓶 【整箱装】",
+            "APPPrice": 180.0,
+            "Pic": "2019/0710/44905e45b94746789341dcec64adcd69.jpg",
+            "BagExplain": "",
+            "SumComment": 26,
+            "GoodCommment": "26",
+            "ActivityName": []
+        }
+    ]
+}
+
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a6a"),
+    "name": "baijiu-xijiu",
+    "Prolist": [{
+            "ID": 1309,
+            "ProductName": "53度 习酒 窖藏1988 1000ml",
+            "APPPrice": 1588.0,
+            "Pic": "2018/0421/35621cb2dd654413adee04df37e5a3ca.jpg",
+            "BagExplain": "",
+            "SumComment": 105,
+            "GoodCommment": "104",
+            "ActivityName": []
+        },
+        {
+            "ID": 1311,
+            "ProductName": "53度 习酒  金典 500ml",
+            "APPPrice": 368.0,
+            "Pic": "2018/1211/3b4f308378ce484eb869710507006e17.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 40,
+            "GoodCommment": "40",
+            "ActivityName": []
+        },
+        {
+            "ID": 1663,
+            "ProductName": "53度 习酒 窖藏1988 500ml",
+            "APPPrice": 828.0,
+            "Pic": "2019/0320/8e85efe738ca4acfb4a5215ca0278b69.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 90,
+            "GoodCommment": "88",
+            "ActivityName": [{
+                "Ativityname": "赠品促销"
+            }]
+        }
+    ]
+}
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a6c"),
+    "name": "putaojiu-wangchao",
+    "Prolist": [{
+            "ID": 42,
+            "ProductName": "中国 王朝 红葡萄酒 750ml",
+            "APPPrice": 49.0,
+            "Pic": "2012/0906/d1c7feedacce499e8545280ab2b26f33.jpg",
+            "BagExplain": "",
+            "SumComment": 49,
+            "GoodCommment": "49",
+            "ActivityName": []
+        },
+        {
+            "ID": 44,
+            "ProductName": "中国 王朝 白葡萄酒 750ml",
+            "APPPrice": 48.0,
+            "Pic": "2012/0906/8b984cf4c93142adab9f8eb2bfdadc59.jpg",
+            "BagExplain": "",
+            "SumComment": 7,
+            "GoodCommment": "7",
+            "ActivityName": []
+        }
+    ]
+}
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a6e"),
+    "name": "huangjiu-tapai",
+    "Prolist": [{
+        "ID": 7653,
+        "ProductName": "塔牌丽春 375ml*6瓶 【整箱装】",
+        "APPPrice": 168.0,
+        "Pic": "2018/0604/50f76cc5103f4e60b037ab2f38197543.jpg",
+        "BagExplain": "",
+        "SumComment": 8,
+        "GoodCommment": "8",
+        "ActivityName": []
+    }]
+}
+
+
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a72"),
+    "name": "baijiu-dongjiu",
+    "Prolist": [{
+            "ID": 1028,
+            "ProductName": "54度 董酒 国密 500ml",
+            "APPPrice": 688.0,
+            "Pic": "2018/0420/701fce074eed4a789e073224ecc9fa12.jpg",
+            "BagExplain": "",
+            "SumComment": 205,
+            "GoodCommment": "195",
+            "ActivityName": [{
+                "Ativityname": "会员价"
+            }]
+        },
+        {
+            "ID": 2153,
+            "ProductName": "54度 董酒 特级国密 500ml",
+            "APPPrice": 1199.0,
+            "Pic": "2017/0613/91ce8929273a4c429c8513b5a7eafe2c.jpg",
+            "BagExplain": "2瓶配一个手提袋",
+            "SumComment": 199,
+            "GoodCommment": "192",
+            "ActivityName": []
+        },
+        {
+            "ID": 2401,
+            "ProductName": "54度 董酒 精酿大师 500ml",
+            "APPPrice": 1188.0,
+            "Pic": "2018/0508/402c149834f24e739768eae68dd0c7f3.jpg",
+            "BagExplain": "",
+            "SumComment": 33,
+            "GoodCommment": "32",
+            "ActivityName": []
+        },
+        {
+            "ID": 4545,
+            "ProductName": "54度 董酒 密藏 430ml（光瓶装）",
+            "APPPrice": 189.0,
+            "Pic": "2018/0529/e6449efe25ce4368b0b64ebe79ffbb0f.jpg",
+            "BagExplain": "",
+            "SumComment": 14,
+            "GoodCommment": "14",
+            "ActivityName": []
+        },
+        {
+            "ID": 4759,
+            "ProductName": "54度 董酒 国密 畅享10 500ml",
+            "APPPrice": 299.0,
+            "Pic": "2018/0425/e8a6af9e06f345bc95e225dbfa5c2780.jpg",
+            "BagExplain": "",
+            "SumComment": 8,
+            "GoodCommment": "8",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        }
+    ]
+}
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a74"),
+    "name": "putaojiu-changcheng",
+    "Prolist": [{
+            "ID": 52,
+            "ProductName": "中国 长城 华夏92 木盒珍藏级葡萄酒 750ml",
+            "APPPrice": 152.0,
+            "Pic": "2015/0226/78893a3307ca4e5f8cb784197447ed5a.jpg",
+            "BagExplain": "",
+            "SumComment": 56,
+            "GoodCommment": "54",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 54,
+            "ProductName": "中国 长城 华夏94 圆桶珍藏品葡萄酒 750ml",
+            "APPPrice": 99.0,
+            "Pic": "/Upload_V5/Product/2014/0414/59ab6e50-ed74-4f25-b439-3a02ed999d56.jpg",
+            "BagExplain": "",
+            "SumComment": 43,
+            "GoodCommment": "42",
+            "ActivityName": []
+        },
+        {
+            "ID": 597,
+            "ProductName": "中国 长城 桑干酒庄 珍藏级 赤霞珠梅洛 红葡萄酒750ml",
+            "APPPrice": 318.0,
+            "Pic": "2018/0530/8aeab32943a948c58c1fbda9f30f14bc.jpg",
+            "BagExplain": "",
+            "SumComment": 9,
+            "GoodCommment": "9",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 3365,
+            "ProductName": "中国 长城 特选级 解百纳 红葡萄酒 750ml",
+            "APPPrice": 109.0,
+            "Pic": "2013/0327/f57175e5244c474fbf1ca227419f12b4.jpg",
+            "BagExplain": "",
+            "SumComment": 21,
+            "GoodCommment": "18",
+            "ActivityName": []
+        }
+    ]
+}
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a76"),
+    "name": "huangjiu-shazhouyouhuang",
+    "Prolist": [{
+            "ID": 7261,
+            "ProductName": "沙洲优黄 手工冻藏 红福黄酒 500ml*6瓶【整箱装】",
+            "APPPrice": 159.0,
+            "Pic": "2017/0427/94e3a4a19e4b44a59e46bb1cd304601d.jpg",
+            "BagExplain": "",
+            "SumComment": 13,
+            "GoodCommment": "13",
+            "ActivityName": []
+        },
+        {
+            "ID": 7262,
+            "ProductName": "【整箱黄酒】沙洲优黄 五年陈黄酒 550ml*8瓶",
+            "APPPrice": 129.0,
+            "Pic": "2017/0427/47b1dee67f95498a9c698177d19f28a1.jpg",
+            "BagExplain": "",
+            "SumComment": 14,
+            "GoodCommment": "15",
+            "ActivityName": []
+        },
+        {
+            "ID": 7263,
+            "ProductName": "沙洲优黄 紫金6年陈青梅黄酒 500ml*9瓶 【整箱装】",
+            "APPPrice": 135.0,
+            "Pic": "2017/0427/f7a1e0849d384bdc951c11e101ae8b27.jpg",
+            "BagExplain": "",
+            "SumComment": 17,
+            "GoodCommment": "17",
+            "ActivityName": []
+        }
+    ]
+}
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a7a"),
+    "name": "baijiu-zhenjiu",
+    "Prolist": [{
+            "ID": 1524,
+            "ProductName": "53度 珍酒 珍八 500ml",
+            "APPPrice": 398.0,
+            "Pic": "2018/0605/3b9ab6ab7ca0472c8222e14a40ca4a2f.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 205,
+            "GoodCommment": "201",
+            "ActivityName": [{
+                "Ativityname": "会员价"
+            }]
+        },
+        {
+            "ID": 1529,
+            "ProductName": "53度 珍酒 珍品 1975 500ml",
+            "APPPrice": 198.0,
+            "Pic": "2018/0823/aeca43e9e2954a1fbf92534d0b67a805.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 278,
+            "GoodCommment": "273",
+            "ActivityName": []
+        },
+        {
+            "ID": 1804,
+            "ProductName": "53度 珍酒 珍十五 己亥猪年 生肖纪念酒 500ml",
+            "APPPrice": 409.0,
+            "Pic": "2019/0424/643e4aaa560a4d16b69d1bbb908d418c.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 89,
+            "GoodCommment": "87",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 1962,
+            "ProductName": "53度 珍酒 珍十五 戊戌狗年 生肖纪念酒 500ml（光瓶装）",
+            "APPPrice": 388.0,
+            "Pic": "2019/0124/167bd712bde848ce96e885ebda733f39.jpg",
+            "BagExplain": "",
+            "SumComment": 98,
+            "GoodCommment": "95",
+            "ActivityName": []
+        },
+        {
+            "ID": 2402,
+            "ProductName": "【整箱装】53度 珍酒 老珍酒500ml*6瓶",
+            "APPPrice": 498.0,
+            "Pic": "2019/0812/6f1dd072c6ee48f88cb1003aaf43ddb8.jpg",
+            "BagExplain": "",
+            "SumComment": 4,
+            "GoodCommment": "4",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        }
+    ]
+}
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a7c"),
+    "name": "putaojiu-zhangyu",
+    "Prolist": [{
+            "ID": 369,
+            "ProductName": "中国 张裕 解百纳（珍藏级）红葡萄酒 750ml",
+            "APPPrice": 168.0,
+            "Pic": "2015/0906/a48a6bc570dc482c86ce8b4bc49cefa7.jpg",
+            "BagExplain": "",
+            "SumComment": 39,
+            "GoodCommment": "38",
+            "ActivityName": []
+        },
+        {
+            "ID": 379,
+            "ProductName": "中国 张裕 窖藏 圆桶装 解百纳 红葡萄酒 750ml",
+            "APPPrice": 98.0,
+            "Pic": "2012/0905/80ebbc53499e4df2b7db7ee001e1f89c.jpg",
+            "BagExplain": "",
+            "SumComment": 11,
+            "GoodCommment": "12",
+            "ActivityName": []
+        },
+        {
+            "ID": 3260,
+            "ProductName": "中国 张裕 窖藏 特选级 解百纳红葡萄酒 750ml",
+            "APPPrice": 129.0,
+            "Pic": "/2013/0131/772c7996677e4aeda5a2c53b31138e11.jpg",
+            "BagExplain": "",
+            "SumComment": 28,
+            "GoodCommment": "28",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 4405,
+            "ProductName": "中国 张裕 卡斯特 蛇龙珠 特选级红葡萄酒（木盒装） 750ml",
+            "APPPrice": 268.0,
+            "Pic": "/Upload_V5/Product/2014/0425/2132588b-0b21-47cc-b404-9b46ece77f8f.JPG",
+            "BagExplain": "",
+            "SumComment": 22,
+            "GoodCommment": "22",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        }
+    ]
+}
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a7e"),
+    "name": "huangjiu-huijishan",
+    "Prolist": [{
+            "ID": 7136,
+            "ProductName": "会稽山 醇香三年 黄酒 500ml*6【整箱装】",
+            "APPPrice": 69.0,
+            "Pic": "2017/0116/d4cf6bdf2bdc429591fd6370b57f1b8d.jpg",
+            "BagExplain": "",
+            "SumComment": 20,
+            "GoodCommment": "19",
+            "ActivityName": []
+        },
+        {
+            "ID": 7137,
+            "ProductName": "会稽山 东风精雕 六年陈酿 500ml*12",
+            "APPPrice": 209.0,
+            "Pic": "2017/0116/7ffd1d2a6e2144718e6540762b1919ce.jpg",
+            "BagExplain": "",
+            "SumComment": 28,
+            "GoodCommment": "28",
+            "ActivityName": []
+        },
+        {
+            "ID": 7138,
+            "ProductName": "会稽山 纯正 五年花雕  500ml*8【整箱装】",
+            "APPPrice": 188.0,
+            "Pic": "2017/0116/c488c3efea0b481a8066fbbf56c8e3e4.jpg",
+            "BagExplain": "",
+            "SumComment": 16,
+            "GoodCommment": "16",
+            "ActivityName": []
+        },
+        {
+            "ID": 7575,
+            "ProductName": "会稽山 纯和8年 绍兴花雕酒 500ml*6瓶【整箱装】",
+            "APPPrice": 288.0,
+            "Pic": "2018/0316/56b005b9b9bd45acae0d55db06d746af.jpg",
+            "BagExplain": "",
+            "SumComment": 14,
+            "GoodCommment": "14",
+            "ActivityName": []
+        },
+        {
+            "ID": 7576,
+            "ProductName": "会稽山 海鲜配黄酒 （银配） 428ml*6瓶【整箱装】",
+            "APPPrice": 168.0,
+            "Pic": "2018/0305/5cfe3cf3b1254419baee72c9c724f70f.jpg",
+            "BagExplain": "",
+            "SumComment": 24,
+            "GoodCommment": "24",
+            "ActivityName": []
+        }
+    ]
+}
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a82"),
+    "name": "baijiu-shuijingfang",
+    "Prolist": [{
+            "ID": 41,
+            "ProductName": "52度 水井坊（井台装） 500ml",
+            "APPPrice": 519.0,
+            "Pic": "2018/0409/60aa79163ce941ad90df4707f81c6213.jpg",
+            "BagExplain": "每购买1瓶，即赠送原厂手提袋1个",
+            "SumComment": 62,
+            "GoodCommment": "60",
+            "ActivityName": [{
+                "Ativityname": "赠品促销"
+            }]
+        },
+        {
+            "ID": 122,
+            "ProductName": "38度 水井坊 500ml",
+            "APPPrice": 479.0,
+            "Pic": "2018/0409/5d9abb2e50c749f0ae16c8f401c7dbce.jpg",
+            "BagExplain": "",
+            "SumComment": 29,
+            "GoodCommment": "29",
+            "ActivityName": []
+        },
+        {
+            "ID": 416,
+            "ProductName": "52度 水井坊 晶狮装 800ml（光瓶装）",
+            "APPPrice": 1690.0,
+            "Pic": "2015/0310/2368f305b6f246ab85e170f85300fa57.jpg",
+            "BagExplain": "",
+            "SumComment": 4,
+            "GoodCommment": "4",
+            "ActivityName": []
+        },
+        {
+            "ID": 1956,
+            "ProductName": "52度 水井坊 菁翠 500ml",
+            "APPPrice": 1499.0,
+            "Pic": "2018/0409/7e5a4da85b0649768bbaeb82a8e0e368.jpg",
+            "BagExplain": "每购买1瓶，即赠送原厂手提袋1个",
+            "SumComment": 9,
+            "GoodCommment": "9",
+            "ActivityName": []
+        },
+        {
+            "ID": 1960,
+            "ProductName": "52度 水井坊 往事 500ml",
+            "APPPrice": 338.0,
+            "Pic": "2018/0112/7e3651b10e674625a42ba41305fa60c8.jpg",
+            "BagExplain": ".",
+            "SumComment": 112,
+            "GoodCommment": "108",
+            "ActivityName": [{
+                "Ativityname": "赠品促销"
+            }]
+        }
+    ]
+}
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a84"),
+    "name": "putaojiu-fabina",
+    "Prolist": [{
+            "ID": 6596,
+            "ProductName": "法国  法比纳古堡 皇族雄狮系列 朗格多克 红葡萄酒 750ml",
+            "APPPrice": 99.0,
+            "Pic": "2017/0313/45c90afb736840769d4d453dd1f8a14d.jpg",
+            "BagExplain": "",
+            "SumComment": 33,
+            "GoodCommment": "32",
+            "ActivityName": []
+        },
+        {
+            "ID": 6597,
+            "ProductName": "法国 法比纳古堡 皇族雄狮系列 鲁西荣 红葡萄酒750ml",
+            "APPPrice": 299.0,
+            "Pic": "2017/0313/be46766ef3584909be65da555d6faebd.jpg",
+            "BagExplain": "",
+            "SumComment": 78,
+            "GoodCommment": "78",
+            "ActivityName": []
+        },
+        {
+            "ID": 6700,
+            "ProductName": "法国 法比纳古堡 皇族雄狮系列 鲁西荣 干红葡萄酒750ml*6 【整箱装】",
+            "APPPrice": 1699.0,
+            "Pic": "2019/0110/7b90085b09d74eb19f7064d56e1d1e28.jpg",
+            "BagExplain": "",
+            "SumComment": 29,
+            "GoodCommment": "29",
+            "ActivityName": []
+        },
+        {
+            "ID": 6856,
+            "ProductName": "西班牙 牧场主皇族雄狮少女之恋桃红起泡葡萄酒 750ml",
+            "APPPrice": 49.0,
+            "Pic": "2018/1213/ab60598fddc943b0a9253e554c95f979.jpg",
+            "BagExplain": "",
+            "SumComment": 83,
+            "GoodCommment": "82",
+            "ActivityName": [{
+                "Ativityname": "赠品促销"
+            }]
+        },
+        {
+            "ID": 6887,
+            "ProductName": "西班牙 法比纳古堡 皇族雄狮 公爵 红葡萄酒 750ml",
+            "APPPrice": 69.0,
+            "Pic": "2017/0313/e7e9e5e01b774fabaa775ce27d5cfcfa.jpg",
+            "BagExplain": "",
+            "SumComment": 53,
+            "GoodCommment": "52",
+            "ActivityName": []
+        },
+        {
+            "ID": 6888,
+            "ProductName": "西班牙 法比纳古堡 皇族雄狮 伯爵 红葡萄酒 750ml",
+            "APPPrice": 69.0,
+            "Pic": "2017/0313/f92582a12aee4682a9b7fcc7ea3307cc.jpg",
+            "BagExplain": "",
+            "SumComment": 76,
+            "GoodCommment": "76",
+            "ActivityName": []
+        },
+        {
+            "ID": 7077,
+            "ProductName": "法国 法比纳古堡 朗格多克 红葡萄酒 750ml*2【附高档礼盒】",
+            "APPPrice": 199.0,
+            "Pic": "2016/1009/9de0ac69e5744291915e195a9f69109e.jpg",
+            "BagExplain": "",
+            "SumComment": 23,
+            "GoodCommment": "23",
+            "ActivityName": []
+        },
+        {
+            "ID": 7093,
+            "ProductName": "法国 法比纳古堡 朗格多克红葡萄酒750ml*2 【精美礼袋装】",
+            "APPPrice": 188.0,
+            "Pic": "2016/1107/d781ab9a8c3f4733814970974bbd73bb.jpg",
+            "BagExplain": "",
+            "SumComment": 32,
+            "GoodCommment": "31",
+            "ActivityName": []
+        }
+    ]
+}
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a86"),
+    "name": "huangjiu-guyuelongshan",
+    "Prolist": [{
+            "ID": 90,
+            "ProductName": "古越龙山 金五年花雕酒 500ml",
+            "APPPrice": 29.0,
+            "Pic": "2015/0820/eda201cbbc974bb08b1c3545016fc7e7.jpg",
+            "BagExplain": "",
+            "SumComment": 21,
+            "GoodCommment": "19",
+            "ActivityName": []
+        },
+        {
+            "ID": 91,
+            "ProductName": "古越龙山 八年陈花雕 500ml",
+            "APPPrice": 45.0,
+            "Pic": "/2013/0603/9e383d06713043e4a34e26562c8a88ce.jpg",
+            "BagExplain": "",
+            "SumComment": 54,
+            "GoodCommment": "54",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 92,
+            "ProductName": "古越龙山 十年陈花雕 500ml",
+            "APPPrice": 89.0,
+            "Pic": "2014/0730/cb8cd94ca3d5425ca189131694e27d45.jpg",
+            "BagExplain": "",
+            "SumComment": 7,
+            "GoodCommment": "7",
+            "ActivityName": []
+        },
+        {
+            "ID": 5052,
+            "ProductName": "古越龙山 喜愿黄酒 428ml",
+            "APPPrice": 38.0,
+            "Pic": "2014/0827/c3f995dc4aea449999d1b3451c3c71b0.jpg",
+            "BagExplain": "无手提袋",
+            "SumComment": 25,
+            "GoodCommment": "25",
+            "ActivityName": []
+        }
+    ]
+}
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a8a"),
+    "name": "baijiu-xifengjiu",
+    "Prolist": [{
+            "ID": 566,
+            "ProductName": "55度 西凤  凤香典范 500ml",
+            "APPPrice": 439.0,
+            "Pic": "2015/0829/84fb14f3fdef4a11a2260589cc7c0fe5.jpg",
+            "BagExplain": "",
+            "SumComment": 52,
+            "GoodCommment": "50",
+            "ActivityName": []
+        },
+        {
+            "ID": 1562,
+            "ProductName": "52度 西凤 柔顺 500ml",
+            "APPPrice": 159.0,
+            "Pic": "2012/0626/d8bec625a5654467b9cd20cb7400cce3.JPG",
+            "BagExplain": "",
+            "SumComment": 19,
+            "GoodCommment": "19",
+            "ActivityName": []
+        },
+        {
+            "ID": 2232,
+            "ProductName": "52度 西凤三星特制 500ml",
+            "APPPrice": 69.0,
+            "Pic": "2015/0829/9e6d5322749847bcb505f2f2630b183e.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 30,
+            "GoodCommment": "26",
+            "ActivityName": []
+        },
+        {
+            "ID": 2331,
+            "ProductName": "45度 西凤 二十年陈酿 500ml",
+            "APPPrice": 359.0,
+            "Pic": "2015/0829/64c8bd3be47a4ed98fc6e3dfee996b62.jpg",
+            "BagExplain": "",
+            "SumComment": 35,
+            "GoodCommment": "35",
+            "ActivityName": []
+        },
+        {
+            "ID": 2574,
+            "ProductName": "52度 西凤 凤香经典 10年 500ml",
+            "APPPrice": 159.0,
+            "Pic": "2017/0817/a139ef060f8043a5aea12fa5a55f3680.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 231,
+            "GoodCommment": "228",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        }
+    ]
+}
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a8c"),
+    "name": "huangjiu-nverhong",
+    "Prolist": [{
+        "ID": 3333,
+        "ProductName": "女儿红 浮雕双瓶装 125ml*2",
+        "APPPrice": 79.0,
+        "Pic": "2016/0426/95df73e037de484da3568fadfe21f6f0.jpg",
+        "BagExplain": "无手提袋",
+        "SumComment": 10,
+        "GoodCommment": "8",
+        "ActivityName": []
+    }]
+}
+
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a90"),
+    "name": "baijiu-dukang",
+    "Prolist": [{
+            "ID": 736,
+            "ProductName": "52度 杜康 国花（经典富贵） 500ml",
+            "APPPrice": 199.0,
+            "Pic": "2015/0130/c7cf921c63ce4725a5a5b09cc2b5cef7.jpg",
+            "BagExplain": "",
+            "SumComment": 35,
+            "GoodCommment": "34",
+            "ActivityName": []
+        },
+        {
+            "ID": 1433,
+            "ProductName": "50.2度 杜康 国花（盛世15年） 500ml",
+            "APPPrice": 167.0,
+            "Pic": "2015/0130/835a799ab9754652a7e1573696aa854a.jpg",
+            "BagExplain": "",
+            "SumComment": 7,
+            "GoodCommment": "6",
+            "ActivityName": []
+        },
+        {
+            "ID": 3212,
+            "ProductName": "52度 酒祖杜康 老酒祖 500ml",
+            "APPPrice": 688.0,
+            "Pic": "2013/0122/4a3e769f3eb5454a814e35bae77d73a9.jpg",
+            "BagExplain": "",
+            "SumComment": 21,
+            "GoodCommment": "21",
+            "ActivityName": []
+        },
+        {
+            "ID": 3216,
+            "ProductName": "50度 酒祖杜康 50年窖龄 （15窖区） 500ml",
+            "APPPrice": 1280.0,
+            "Pic": "2015/0131/3c6c1ad63bc046ea9d4dd775f03f674e.jpg",
+            "BagExplain": "",
+            "SumComment": 2,
+            "GoodCommment": "2",
+            "ActivityName": []
+        },
+        {
+            "ID": 5071,
+            "ProductName": "42度 杜康 老窖酿造 V9 500ml",
+            "APPPrice": 99.0,
+            "Pic": "2015/0131/2ba05bd192cc4f82b342017c8125b0a4.jpg",
+            "BagExplain": "无手提袋",
+            "SumComment": 12,
+            "GoodCommment": "12",
+            "ActivityName": []
+        }
+    ]
+}
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a92"),
+    "name": "qingjiu-juzhengzong",
+    "Prolist": [{
+            "ID": 7343,
+            "ProductName": "15度 日本 菊正宗牌 纯米清酒（酒樽酒） 720ml",
+            "APPPrice": 149.0,
+            "Pic": "2017/0701/841322848c874f59a82e28daed41c066.jpg",
+            "BagExplain": "",
+            "SumComment": 19,
+            "GoodCommment": "19",
+            "ActivityName": []
+        },
+        {
+            "ID": 7345,
+            "ProductName": "15度 日本 菊正宗牌 上选清酒 1800ml",
+            "APPPrice": 199.0,
+            "Pic": "2017/0801/5e799f24e7a74315b824cb2244be8b6a.jpg",
+            "BagExplain": "",
+            "SumComment": 18,
+            "GoodCommment": "17",
+            "ActivityName": []
+        },
+        {
+            "ID": 7362,
+            "ProductName": "菊正宗 庆祝 本酿造1800ml",
+            "APPPrice": 198.0,
+            "Pic": "2018/0408/9ab756752d7b48a19df44762e1de7f74.jpg",
+            "BagExplain": "",
+            "SumComment": 22,
+            "GoodCommment": "22",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 7377,
+            "ProductName": "菊正宗 纯米大吟酿 720ml",
+            "APPPrice": 318.0,
+            "Pic": "2017/0731/987507b4021948c186b5cc91e200d502.jpg",
+            "BagExplain": "",
+            "SumComment": 5,
+            "GoodCommment": "5",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        }
+    ]
+}
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a94"),
+    "name": "baijiu-sitejiu",
+    "Prolist": [{
+            "ID": 453,
+            "ProductName": "52度 四特 东方韵 雅韵 500ml",
+            "APPPrice": 308.0,
+            "Pic": "2018/0403/226b75b3bde24effa7cd54b2c553ccb0.jpg",
+            "BagExplain": "",
+            "SumComment": 58,
+            "GoodCommment": "57",
+            "ActivityName": [{
+                "Ativityname": "秒杀"
+            }]
+        },
+        {
+            "ID": 454,
+            "ProductName": "52度 四特 二十年限量版 500ml",
+            "APPPrice": 2268.0,
+            "Pic": "2015/0831/4c025db74f43402b96d21f8c455c0181.jpg",
+            "BagExplain": "",
+            "SumComment": 3,
+            "GoodCommment": "3",
+            "ActivityName": []
+        },
+        {
+            "ID": 455,
+            "ProductName": "52度 四特 东方韵 弘韵 500ml",
+            "APPPrice": 149.0,
+            "Pic": "2015/0810/5c474d4cb1944527a9f0135d1c75f10b.jpg",
+            "BagExplain": "",
+            "SumComment": 82,
+            "GoodCommment": "80",
+            "ActivityName": []
+        },
+        {
+            "ID": 466,
+            "ProductName": "52度 四特 古钟瓷 460ml",
+            "APPPrice": 36.0,
+            "Pic": "2014/0103/aff8a35ed1b74e0f82fe113042670b3c.jpg",
+            "BagExplain": "",
+            "SumComment": 41,
+            "GoodCommment": "39",
+            "ActivityName": []
+        },
+        {
+            "ID": 3756,
+            "ProductName": "52度 四特 锦瓷 五星 460ml",
+            "APPPrice": 189.0,
+            "Pic": "2013/0709/662f07803146495cb359b55e02dccd4e.jpg",
+            "BagExplain": "",
+            "SumComment": 31,
+            "GoodCommment": "31",
+            "ActivityName": []
+        }
+    ]
+}
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a96"),
+    "name": "qingjiu-ribensheng",
+    "Prolist": [{
+            "ID": 7348,
+            "ProductName": "15.5度 日本盛牌 上选清酒 1800ml",
+            "APPPrice": 169.0,
+            "Pic": "2018/0408/531bda24252e4bbdb81d6e3615d5d2b2.jpg",
+            "BagExplain": "",
+            "SumComment": 13,
+            "GoodCommment": "12",
+            "ActivityName": [{
+                    "Ativityname": "赠品促销"
+                },
+                {
+                    "Ativityname": "限时抢购"
+                }
+            ]
+        },
+        {
+            "ID": 7386,
+            "ProductName": "日本盛（特撰）本釀造1800ml",
+            "APPPrice": 168.0,
+            "Pic": "2017/0803/73b42ad4e3604914a1ed61eac72891df.jpg",
+            "BagExplain": "",
+            "SumComment": 8,
+            "GoodCommment": "8",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 7414,
+            "ProductName": "日本盛（大吟酿）清酒 720ml",
+            "APPPrice": 300.0,
+            "Pic": "2017/0807/0339c2cc76644fd68c267fe0a3454d36.jpg",
+            "BagExplain": "",
+            "SumComment": 2,
+            "GoodCommment": "2",
+            "ActivityName": []
+        },
+        {
+            "ID": 7416,
+            "ProductName": "日本盛（大吟酿）清酒 1800ml",
+            "APPPrice": 348.0,
+            "Pic": "2017/0807/b4d48ab69da1407b88318665515da1d7.jpg",
+            "BagExplain": "",
+            "SumComment": 6,
+            "GoodCommment": "6",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 7418,
+            "ProductName": "日本盛（上撰）清酒 720ml",
+            "APPPrice": 142.0,
+            "Pic": "2017/0807/24433609e302410eb9cf167138d8252c.jpg",
+            "BagExplain": "",
+            "SumComment": 3,
+            "GoodCommment": "3",
+            "ActivityName": []
+        }
+    ]
+}
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a98"),
+    "name": "qingjiu-tianxiapinghegui",
+    "Prolist": [{
+            "ID": 7388,
+            "ProductName": "天下平和鬼 （鬼酒） 300ml",
+            "APPPrice": 59.0,
+            "Pic": "2017/0803/515df323b4614e40a06a20f5f78f2886.jpg",
+            "BagExplain": "",
+            "SumComment": 1,
+            "GoodCommment": "1",
+            "ActivityName": []
+        },
+        {
+            "ID": 7389,
+            "ProductName": "天下平和鬼 （鬼酒） 1800ml",
+            "APPPrice": 139.0,
+            "Pic": "2017/0803/d9202388d03a446a8188201336d56d26.jpg",
+            "BagExplain": "",
+            "SumComment": 19,
+            "GoodCommment": "19",
+            "ActivityName": []
+        },
+        {
+            "ID": 7390,
+            "ProductName": "天下平和鬼（鬼酒）720ml",
+            "APPPrice": 99.0,
+            "Pic": "2017/0803/cf4020a0904a457796588adbc882152f.jpg",
+            "BagExplain": "",
+            "SumComment": 8,
+            "GoodCommment": "8",
+            "ActivityName": []
+        }
+    ]
+}
+
+{
+    "_id": ObjectId("5d6fd10d0614db20257c5a9a"),
+    "name": "yangjiu-jiekedanni",
+    "Prolist": [{
+            "ID": 1086,
+            "ProductName": "美国 杰克丹尼 田纳西州威士忌 700ml",
+            "APPPrice": 149.0,
+            "Pic": "2018/0918/a8ad40496b81404cbe9ebabc738bc9ce.jpg",
+            "BagExplain": "",
+            "SumComment": 81,
+            "GoodCommment": "77",
+            "ActivityName": [{
+                    "Ativityname": "限时抢购"
+                },
+                {
+                    "Ativityname": "赠品促销"
+                }
+            ]
+        },
+        {
+            "ID": 7498,
+            "ProductName": "美国 杰克丹尼 绅士杰克 优质田纳西州 威士忌 750ml",
+            "APPPrice": 268.0,
+            "Pic": "2018/0330/1fe0e429c86042ac807bf77c89ddc602.jpg",
+            "BagExplain": "",
+            "SumComment": 9,
+            "GoodCommment": "9",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 7499,
+            "ProductName": "美国 杰克丹尼 单桶田纳西州 威士忌 700ml",
+            "APPPrice": 888.0,
+            "Pic": "2018/0330/0b22f14d91854bb28b66fa3531301762.jpg",
+            "BagExplain": "",
+            "SumComment": 7,
+            "GoodCommment": "7",
+            "ActivityName": []
+        },
+        {
+            "ID": 7500,
+            "ProductName": "美国 杰克丹尼 田纳西州威士忌 蜂蜜味力娇酒（配制酒）700ml",
+            "APPPrice": 169.0,
+            "Pic": "2018/0330/64eeecd0a41e419db7b411f9eb160efb.jpg",
+            "BagExplain": "",
+            "SumComment": 10,
+            "GoodCommment": "10",
+            "ActivityName": []
+        },
+        {
+            "ID": 7501,
+            "ProductName": "美国 杰克丹尼 NO.27金标田纳西州威士忌 700ml",
+            "APPPrice": 628.0,
+            "Pic": "2018/0330/1ee985db1cd44e2888ecf87c024b18f5.jpg",
+            "BagExplain": "",
+            "SumComment": 15,
+            "GoodCommment": "15",
+            "ActivityName": []
+        },
+        {
+            "ID": 7503,
+            "ProductName": "美国 杰克丹尼 田纳西州威士忌 150周年纪念酒 700ml",
+            "APPPrice": 338.0,
+            "Pic": "2018/0330/7df6cac2cbc947d1ad48c6851fbf060a.jpg",
+            "BagExplain": "",
+            "SumComment": 15,
+            "GoodCommment": "15",
+            "ActivityName": []
+        }
+    ]
+}
+
+{
+    "name": "baijiu-luzhoulaojiao",
+    "Prolist": [{
+            "ID": 37,
+            "ProductName": "52度 国窖1573 500ml",
+            "APPPrice": 969.0,
+            "Pic": "2017/1114/021515d5d89445a68441fb5eee1656b4.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 108,
+            "GoodCommment": "106",
+            "ActivityName": [{
+                "Ativityname": "会员价"
+            }]
+        },
+        {
+            "ID": 251,
+            "ProductName": "52度 泸州老窖 特曲 古法酿造 500ml",
+            "APPPrice": 258.0,
+            "Pic": "2018/0417/6aa11e769965430da42fd458f941afb2.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 127,
+            "GoodCommment": "122",
+            "ActivityName": [{
+                "Ativityname": "满额立减"
+            }]
+        },
+        {
+            "ID": 437,
+            "ProductName": "38度 国窖 1573 500ml",
+            "APPPrice": 739.0,
+            "Pic": "2017/1228/3d90c3df1d5744daaa40e0a084f46b94.jpg",
+            "BagExplain": "",
+            "SumComment": 5,
+            "GoodCommment": "5",
+            "ActivityName": []
+        },
+        {
+            "ID": 472,
+            "ProductName": "52度 泸州老窖 特曲 老字号 500ml",
+            "APPPrice": 328.0,
+            "Pic": "2017/0922/e80ef4bdc7a042e7bf8dc4b83f730e70.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 156,
+            "GoodCommment": "152",
+            "ActivityName": [{
+                "Ativityname": "会员价"
+            }]
+        },
+        {
+            "ID": 1025,
+            "ProductName": "52度 国窖 1573 中国品味 500ml",
+            "APPPrice": 1888.0,
+            "Pic": "2018/0315/a45d730bdc9a486a9bf00deb4fb4df66.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 134,
+            "GoodCommment": "130",
+            "ActivityName": [{
+                "Ativityname": "会员价"
+            }]
+        }
+    ]
+}
+
+{
+    "name": "baijiu-jinmengaoliangjiu",
+    "Prolist": [{
+            "ID": 995,
+            "ProductName": "53度 八八坑道高粱酒 600ml",
+            "APPPrice": 288.0,
+            "Pic": "2015/0829/55a0741eb2bf46a38c2ce7afbbce18d8.jpg",
+            "BagExplain": "",
+            "SumComment": 1,
+            "GoodCommment": "1",
+            "ActivityName": []
+        },
+        {
+            "ID": 1005,
+            "ProductName": "53度 子弹高粱酒 500ml",
+            "APPPrice": 268.0,
+            "Pic": "2011/0625/fb4d0fda3b7944bfb6600bf2d2ebef06.jpg",
+            "BagExplain": "",
+            "SumComment": 6,
+            "GoodCommment": "6",
+            "ActivityName": []
+        },
+        {
+            "ID": 1006,
+            "ProductName": "53度 炮弹高粱酒 600ml",
+            "APPPrice": 298.0,
+            "Pic": "2011/0625/fd9754d50bb34962ae4cd0a23565db15.jpg",
+            "BagExplain": "",
+            "SumComment": 3,
+            "GoodCommment": "3",
+            "ActivityName": []
+        },
+        {
+            "ID": 2370,
+            "ProductName": "58度 台湾 金门 高粱酒 600ml",
+            "APPPrice": 259.0,
+            "Pic": "2017/1025/b32a778de840449e974845532ff21579.jpg",
+            "BagExplain": "",
+            "SumComment": 36,
+            "GoodCommment": "34",
+            "ActivityName": []
+        },
+        {
+            "ID": 2371,
+            "ProductName": "50度 金门 高粱酒 600ml",
+            "APPPrice": 358.0,
+            "Pic": "/2012/0711/50079b8b73f146b7b6f95fff04cb8e7e.JPG",
+            "BagExplain": "",
+            "SumComment": 4,
+            "GoodCommment": "4",
+            "ActivityName": []
+        }
+    ]
+} {
+    "name": "baijiu-quanxing",
+    "Prolist": [{
+            "ID": 2936,
+            "ProductName": "52度 全兴大曲 润藏18年 500ml",
+            "APPPrice": 399.0,
+            "Pic": "2015/0829/84f37aae520e48cf8dcbe18611fd91d2.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 20,
+            "GoodCommment": "20",
+            "ActivityName": []
+        },
+        {
+            "ID": 3173,
+            "ProductName": "50度 全兴 御酒 3钻 500ml",
+            "APPPrice": 79.0,
+            "Pic": "2015/0829/724d7fdabdc14e47bbc25f7f9fc6c714.jpg",
+            "BagExplain": "",
+            "SumComment": 9,
+            "GoodCommment": "8",
+            "ActivityName": []
+        },
+        {
+            "ID": 3702,
+            "ProductName": "52度 全兴 井藏贰号 500ml",
+            "APPPrice": 499.0,
+            "Pic": "2013/0628/76b70214c7ac4567bb79bb27b3975669.jpg",
+            "BagExplain": "",
+            "SumComment": 3,
+            "GoodCommment": "3",
+            "ActivityName": []
+        },
+        {
+            "ID": 3703,
+            "ProductName": "52度 全兴 井藏叁号 500ml",
+            "APPPrice": 348.0,
+            "Pic": "2013/0628/ebcf4cbe9d7e4265ace21f6ea3af18e7.jpg",
+            "BagExplain": "",
+            "SumComment": 5,
+            "GoodCommment": "5",
+            "ActivityName": []
+        },
+        {
+            "ID": 3706,
+            "ProductName": "52度 全兴大曲 青花瓷 15年 500ml",
+            "APPPrice": 399.0,
+            "Pic": "2017/1117/91b5305bbca94bc4b73f82cbb455b288.jpg",
+            "BagExplain": "每购买2瓶，即赠送原厂手提袋1个",
+            "SumComment": 51,
+            "GoodCommment": "50",
+            "ActivityName": []
+        }
+    ]
+} {
+    "name": "baijiu-guotai",
+    "Prolist": [{
+        "ID": 7629,
+        "ProductName": "53度 国台 国标酒 2013年酿造 500ml",
+        "APPPrice": 599.0,
+        "Pic": "2019/0902/7fc28427eeea4b8d83752329081724ee.jpg",
+        "BagExplain": "",
+        "SumComment": 72,
+        "GoodCommment": "71",
+        "ActivityName": [{
+            "Ativityname": "赠品促销"
+        }]
+    }]
+} {
+    "name": "yangjiu-rentouma",
+    "Prolist": [{
+            "ID": 106,
+            "ProductName": "法国 人头马 路易十三 干邑白兰地 700ml",
+            "APPPrice": 18999.0,
+            "Pic": "2019/0319/0863fccfc7e04364bf5d0e4966cd9bac.jpg",
+            "BagExplain": "",
+            "SumComment": 3,
+            "GoodCommment": "3",
+            "ActivityName": []
+        },
+        {
+            "ID": 218,
+            "ProductName": "法国 人头马 俱乐部 干邑白兰地 700ml",
+            "APPPrice": 510.0,
+            "Pic": "2018/1023/e21c3e24c49a42f69be1507a750838f7.jpg",
+            "BagExplain": "",
+            "SumComment": 39,
+            "GoodCommment": "38",
+            "ActivityName": []
+        },
+        {
+            "ID": 219,
+            "ProductName": "法国 人头马 XO 干邑白兰地 700ml 带盒带码",
+            "APPPrice": 1299.0,
+            "Pic": "2018/0912/4d44c9fbe429408c8feaa0a3ce554701.jpg",
+            "BagExplain": "",
+            "SumComment": 122,
+            "GoodCommment": "117",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 1015,
+            "ProductName": "法国 人头马 XO 干邑白兰地 小酒版 50ml",
+            "APPPrice": 159.0,
+            "Pic": "2018/1022/d3cf4a7df1874b23a6195d6890d506c1.jpg",
+            "BagExplain": "",
+            "SumComment": 14,
+            "GoodCommment": "14",
+            "ActivityName": []
+        },
+        {
+            "ID": 2382,
+            "ProductName": "法国 人头马 VSOP 小酒版 50ml",
+            "APPPrice": 36.0,
+            "Pic": "2012/0510/48e19f7eb4064c06b5986b732115294c.JPG",
+            "BagExplain": "",
+            "SumComment": 15,
+            "GoodCommment": "15",
+            "ActivityName": []
+        },
+        {
+            "ID": 4255,
+            "ProductName": "法国 人头马 VSOP 特优香槟干邑白兰地 700ml",
+            "APPPrice": 399.0,
+            "Pic": "/Upload_V5/Product/2014/0320/e57d67b8-23d7-4ccf-a9b7-575f78fba302.JPG",
+            "BagExplain": "",
+            "SumComment": 9,
+            "GoodCommment": "9",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        }
+    ]
+}
+
+{
+    "name": "yangjiu-madieli",
+    "Prolist": [{
+            "ID": 222,
+            "ProductName": "法国 马爹利 名士 干邑白兰地 700ml",
+            "APPPrice": 468.0,
+            "Pic": "2016/0331/54e9e4264dc64688b4f527a155c5fa66.jpg",
+            "BagExplain": "",
+            "SumComment": 64,
+            "GoodCommment": "62",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 223,
+            "ProductName": "法国 马爹利 蓝带 干邑白兰地 700ml",
+            "APPPrice": 1408.0,
+            "Pic": "2018/1022/1c82cf97e9bb436ab61a3b3331ed2f3d.jpg",
+            "BagExplain": "",
+            "SumComment": 16,
+            "GoodCommment": "15",
+            "ActivityName": []
+        },
+        {
+            "ID": 224,
+            "ProductName": "法国 马爹利 XO 干邑白兰地 700ml",
+            "APPPrice": 1560.0,
+            "Pic": "2012/0413/5c24d88ced06406ab8529bde5ea6643f.JPG",
+            "BagExplain": "",
+            "SumComment": 6,
+            "GoodCommment": "6",
+            "ActivityName": []
+        },
+        {
+            "ID": 1016,
+            "ProductName": "法国 马爹利 蓝带 干邑白兰地 小酒版 50ml",
+            "APPPrice": 189.0,
+            "Pic": "2012/0509/0f1b065fbbbc4d16af9152159bf57a78.JPG",
+            "BagExplain": "",
+            "SumComment": 15,
+            "GoodCommment": "15",
+            "ActivityName": []
+        },
+        {
+            "ID": 3581,
+            "ProductName": "法国 马爹利 XO 小酒版 50ml",
+            "APPPrice": 137.0,
+            "Pic": "2013/0529/ff093cd264ed40ccbf44ef0fb60fc44b.jpg",
+            "BagExplain": "",
+            "SumComment": 5,
+            "GoodCommment": "5",
+            "ActivityName": []
+        }
+    ]
+}
+
+{
+    "name": "yangjiu-xuannishi",
+    "Prolist": [{
+            "ID": 220,
+            "ProductName": "法国 轩尼诗Hennessy VSOP 干邑白兰地 700ml 带盒带码 ",
+            "APPPrice": 448.0,
+            "Pic": "2018/1026/37d8820d8748489dac15ba96ab2a1f7e.jpg",
+            "BagExplain": "",
+            "SumComment": 58,
+            "GoodCommment": "57",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 467,
+            "ProductName": "法国 轩尼诗Hennessy XO 干邑白兰地 700ml【正品保证 带防伪码】",
+            "APPPrice": 1599.0,
+            "Pic": "2018/1022/1bf729e2cff14af281cea5d4ba636bc4.jpg",
+            "BagExplain": "",
+            "SumComment": 8,
+            "GoodCommment": "7",
+            "ActivityName": []
+        },
+        {
+            "ID": 6372,
+            "ProductName": "法国 轩尼诗Hennessy XO 干邑白兰地 1500ml",
+            "APPPrice": 3489.0,
+            "Pic": "2015/0724/8431f55ee27841b19c05a10ad7c3ae6d.jpg",
+            "BagExplain": "",
+            "SumComment": 6,
+            "GoodCommment": "6",
+            "ActivityName": []
+        }
+    ]
+}
+
+{
+    "name": "yangjiu-zhihuashi",
+    "Prolist": [{
+        "ID": 79,
+        "ProductName": "英国 芝华士 12年威士忌 700ml",
+        "APPPrice": 172.0,
+        "Pic": "2018/1211/ae148917f33049f3bc3b1d38a945ea56.jpg",
+        "BagExplain": "",
+        "SumComment": 259,
+        "GoodCommment": "254",
+        "ActivityName": [{
+            "Ativityname": "限时抢购"
+        }]
+    }]
+}
+
+{
+    "name": "yangjiu-dimo",
+    "Prolist": [{
+            "ID": 7481,
+            "ProductName": "英国 帝摩大摩 12年苏格兰 单一麦芽威士忌 700ml",
+            "APPPrice": 558.0,
+            "Pic": "2018/1112/ce919317023c4f7ab445f17d6bd4c9ca.jpg",
+            "BagExplain": "",
+            "SumComment": 3,
+            "GoodCommment": "3",
+            "ActivityName": []
+        },
+        {
+            "ID": 7482,
+            "ProductName": "英国 帝摩 大摩 15年苏格兰 单一麦芽威士忌 700ml",
+            "APPPrice": 688.0,
+            "Pic": "2018/1112/18abc1ee1b0f45a89d136bb188c44fb9.jpg",
+            "BagExplain": "",
+            "SumComment": 4,
+            "GoodCommment": "4",
+            "ActivityName": [{
+                "Ativityname": "限时抢购"
+            }]
+        },
+        {
+            "ID": 7484,
+            "ProductName": "英国 帝摩 大摩 18年苏格兰 单一麦芽威士忌 700ml",
+            "APPPrice": 1388.0,
+            "Pic": "2018/1112/af0dcce747b14d41b141a56ab0151ad6.jpg",
+            "BagExplain": "",
+            "SumComment": 25,
+            "GoodCommment": "25",
+            "ActivityName": []
+        },
+        {
+            "ID": 7485,
+            "ProductName": "英国 帝摩 大摩 雪茄三桶苏格兰 单一麦芽威士忌 700ml",
+            "APPPrice": 1288.0,
+            "Pic": "2018/1112/a21604ea51c746ffac1e2302983ae741.jpg",
+            "BagExplain": "",
+            "SumComment": 31,
+            "GoodCommment": "31",
+            "ActivityName": []
+        }
+    ]
+} {
+    "name": "qingjiu-yibenyi",
+    "Prolist": [{
+            "ID": 7344,
+            "ProductName": "15.5度 日本 一本义牌 金印清酒 720ml",
+            "APPPrice": 197.0,
+            "Pic": "2017/0701/1c54234fecf644a185cc77205133a38c.jpg",
+            "BagExplain": "",
+            "SumComment": 9,
+            "GoodCommment": "9",
+            "ActivityName": []
+        },
+        {
+            "ID": 7365,
+            "ProductName": "日本 一本义 传心 （稻）纯米清酒 1800ml",
+            "APPPrice": 490.0,
+            "Pic": "2017/0726/ea90ee6e8cb84f2ca858195785ed07ae.jpg",
+            "BagExplain": "",
+            "SumComment": 4,
+            "GoodCommment": "4",
+            "ActivityName": []
+        },
+        {
+            "ID": 7366,
+            "ProductName": "日本 一本义 传心 （土） 本酿造 300ml",
+            "APPPrice": 139.0,
+            "Pic": "2017/0726/4d9ac6bbb2d546dabdda0f1499e76611.jpg",
+            "BagExplain": "",
+            "SumComment": 3,
+            "GoodCommment": "3",
+            "ActivityName": []
+        },
+        {
+            "ID": 7367,
+            "ProductName": "日本 一本义 传心 （土） 本酿造 720ml",
+            "APPPrice": 208.0,
+            "Pic": "2017/0726/3153a1095d1040c688786e671bcc1ad0.jpg",
+            "BagExplain": "",
+            "SumComment": 3,
+            "GoodCommment": "3",
+            "ActivityName": []
+        }
+    ]
+} {
+    "name": "pijiu-fujia",
+    "Prolist": []
+} {
+    "name": "pijiu-duwei",
+    "Prolist": []
+} {
+    "name": "pijiu-keluona",
+    "Prolist": []
+}
