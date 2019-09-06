@@ -57,7 +57,7 @@ export default {
   methods: {
     async prolist(path) {
       path = path.name;
-      let { data } = await this.$axios.get("http://localhost:1906/sort/goods", {
+      let { data } = await this.$axios.get("http://localhost:1906/sort/goods",{
         params: { id: path }
       });
       this.productlist = data.data.length ? data.data[0].Prolist : [];
