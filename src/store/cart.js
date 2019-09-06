@@ -1,6 +1,7 @@
 import axios from 'axios'
 export default{
     state:{
+        //存数据定义一个空数组
         cartlist:[
         //     {
         //     ID:1,
@@ -47,19 +48,33 @@ export default{
         },
     }, 
     actions:{
+        //查询所有商品
       saveForm(context) {
        axios.post('http://localhost:1906/cart', context.state.cartlist).then(res => {  // 调用接口
                 context.commit('changeQty',res.data)  
-                  // 通过接口获取的后台数据保存到store中，等待组件取用
-                  console.log(res)   
-                  console.log(context.state)   
+                  // 通过接口获取的后台数据保存到store中，等待组件取用              
                   context.state.cartlist=res.data.data;
-                  console.log(context.state.cartlist);
                   
 
                 }) 
                            
+            },
+            //删除商品
+            removeForm(context,id){      
+                axios.post('http://localhost:1906/cart/delete',{ID:id}).then(res=>{
+                    context.commit('removeItem',res.data);
+                    
+                    
+                })
+            },
+            updateForm(context,{ID,qty}){  
+                // context.state.cartlist
+                axios.post('http://localhost:1906/cart/updata',{ID:ID ,qty:qty}).then(res=>{
+                    context.commit('changeQty',res.data);
+                    
+                })
             }
+     
      
         }
     

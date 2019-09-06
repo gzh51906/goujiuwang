@@ -74,7 +74,7 @@ export default {
             this.$router.push(targetUrl);
 
               // 保存token到本地
-              // this.$store.commit('login',data.data.authorization)
+              this.$store.commit('login',data.data.authorization)
           }else{
               alert('用户名或密码错误')
           }
@@ -89,7 +89,7 @@ export default {
 <style scoped>
 .header {
   height: 46px;
-  border: 1px solid #eee;
+  border-bottom: 1px solid #eee;
   display: flex;
   align-items: center;
 }

@@ -20,7 +20,7 @@
                 :min="1"
                 size="mini"
                 v-model="item.qty"
-                @change="changeQty($event,item.ID)"
+                @change="changeQty($event,item.ID);suchForm($event,item.ID ,item.qty)"
               ></el-input-number>
             </p>
           </el-col>
@@ -30,7 +30,7 @@
             style="color:red;"
             type="text"
             icon="el-icon-delete"
-            @click="remove(item.ID)"
+            @click="remove(item.ID);deleteForm(item.ID)"
           >删除</el-button>
         </el-col>
       </el-row>
@@ -66,20 +66,31 @@ export default {
   },
   created(){
 this.submitForm();
+
   },
   methods: {
     ...mapMutations({
       changeQty: "changeQty",
       remove: "removeItem"
+       
     }),
     goto(ID) {
-      this.$router.push({ name: "datail", params: { ID } });
+      this.$router.push({ name: "detail", params: {ID } });
     },
    
     submitForm () {
- this.$store.dispatch('saveForm')
+ this.$store.dispatch('saveForm')//触发vuex里面的网络请求
+ },
+   deleteForm (id) {
+ this.$store.dispatch('removeForm',id)//触发vuex里面的网络请求
+ },
+ suchForm(qty,ID){
+  //  console.log("ID",ID,"qty",qty);
+   
+ this.$store.dispatch('updateForm',{ID,qty})//触发vuex里面的网络请求
  }
   }
+  //在购物车发送请求
   // created(){
   // 　　　　this.$axios.post('http://localhost:1906/cart').then( res => {
   // 　　　　　　console.log(res)
