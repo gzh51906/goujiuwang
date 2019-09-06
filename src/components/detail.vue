@@ -46,7 +46,13 @@
         </div>
         <div class="count">
           <span>数量</span>
-          <el-input-number size="mini" v-model="num" class="count_1"></el-input-number>
+          <el-input-number
+            size="mini"
+            v-model="num"
+            class="count_1"
+            id="count_1"
+            @change="changenum"
+          ></el-input-number>
         </div>
         <div class="delivery">
           送至&nbsp;&nbsp;上海市
@@ -206,7 +212,7 @@
           <el-col :span="11" class="nav_cart" @click.native="goto('cart')">
             <div class="bottom_left">
               <i class="el-icon-shopping-cart-2">
-                <el-badge :value="3" class="item badge_item"></el-badge>
+                <el-badge :value="cartlenth" class="item badge_item"></el-badge>
               </i>
               <span>购物车</span>
             </div>
@@ -214,10 +220,10 @@
         </el-col>
         <el-col :span="16">
           <el-col :span="12">
-            <div class="joincart">加入购物车</div>
+            <div class="joincart" @click="add2cart">加入购物车</div>
           </el-col>
           <el-col :span="12">
-            <div class="nowbuy">立即购买</div>
+            <div class="nowbuy" @click="buy">立即购买</div>
           </el-col>
         </el-col>
       </el-row>
@@ -235,6 +241,7 @@ export default {
       offsetTop: 0,
       itemlist: [],
       ActivityNamelength: 0,
+      infor: "",
       tabs: [
         {
           name: "商品介绍",
@@ -290,13 +297,22 @@ export default {
       list: ["商品", "详情", "评论"]
     };
   },
+  computed: {
+    cartlenth() {
+      // return this.$store.state.cartlist.length;
+      // 模块化后：
+      // console.log(this.$store);
+      return this.$store.state.cart.cartlist.length;
+    }
+  },
   mounted() {
     this.handleScroll();
   },
   created() {
-    // console.log(this.$route.params);
     let path = this.$route.params;
+    let item = this.$route.query;
     this.iteminf(path);
+    this.add2cart(item);
   },
   methods: {
     async iteminf(path) {
@@ -305,9 +321,12 @@ export default {
         params: { id: ietmid }
       });
       this.itemlist = data.data.length ? data.data[0] : [];
-      console.log("this.itemlist", this.itemlist);
+      // console.log("this.itemlist", this.itemlist);
       this.ActivityNamelength = this.itemlist.ActivityName.length;
-      console.log(this.ActivityNamelength);
+      // console.log(this.ActivityNamelength);
+    },
+    changenum(e) {
+      this.num = e;
     },
     handleScroll() {
       this.$refs.top.addEventListener("scroll", () => {
@@ -343,13 +362,105 @@ export default {
       this.activeIdxq = i;
     },
     goto(val) {
-      // console.log("+++");
-
       this.$router.push({ name: val });
     },
     attention() {
       // console.log("attention");
       // 判断是否是登录状态，是的话直接更换成有颜色的星星，不是的话就跳转到登录页面
+    },
+    buy() {
+      this.add2cart();
+      this.$router.push({ name: "cart" });
+    },
+    async add2cart(val) {
+      // console.log("val", val);
+      // 输入框的值
+      let qty = this.num;
+      // console.log("this.cartlenth()", this.cartlenth);
+
+      let { Pic, APPPrice, ProductName, ID } = this.itemlist;
+      console.log(Pic, APPPrice, ProductName, ID, qty);
+      if (Pic && APPPrice && ProductName && ID && qty) {
+        let { data } = await this.$axios.get(
+          "http://localhost:1906/sort/cartlist",
+          {
+            params: { id: ID }
+          }
+        );
+        let len = data.data.length;
+        console.log("length", data.data.length);
+        if (len != 0) {
+          console.log("有该商品了");
+          console.log(Pic, APPPrice, ProductName, ID, qty);
+
+          // 修改数据
+          let { data } = await this.$axios.post(
+            "http://localhost:1906/sort/updata",
+            { ID, qty }
+          );
+          let { cartlist } = this.$store.state.cart;
+          // console.log("this.itemlist", this.itemlist);
+          // console.log("this.$store.state", this.$store.state);
+          // 判断当前商品是否已经存在购物车
+          // 存在：改变数量
+          // 不存在：添加商品
+          Pic = `http://img0.gjw.com/product/${Pic}`;
+          let hasItem = cartlist.filter(function(item) {
+            //得到一个数组或空数组
+            return item.ID === ID;
+          })[0];
+          console.log("hasItem", hasItem);
+
+          if (hasItem) {
+            this.$store.commit("changeQty", { ID: ID, qty: hasItem.qty + qty });
+          } else {
+            this.$store.commit("addItem", {
+              Pic,
+              APPPrice,
+              ProductName,
+              ID,
+              qty: qty
+            });
+          }
+        } else {
+          console.log("没有该商品了");
+          // 添加数据
+          let { data } = await this.$axios.post(
+            "http://localhost:1906/sort/cart",
+            {
+              Pic,
+              APPPrice,
+              ProductName,
+              ID,
+              qty
+            }
+          );
+          let { cartlist } = this.$store.state.cart;
+          // console.log("this.itemlist", this.itemlist);
+          // console.log("this.$store.state", this.$store.state);
+          // 判断当前商品是否已经存在购物车
+          // 存在：改变数量
+          // 不存在：添加商品
+          Pic = `http://img0.gjw.com/product/${Pic}`;
+          let hasItem = cartlist.filter(function(item) {
+            //得到一个数组或空数组
+            return item.ID === ID;
+          })[0];
+          console.log("hasItem", hasItem);
+
+          if (hasItem) {
+            this.$store.commit("changeQty", { ID: ID, qty: hasItem.qty + qty });
+          } else {
+            this.$store.commit("addItem", {
+              Pic,
+              APPPrice,
+              ProductName,
+              ID,
+              qty: qty
+            });
+          }
+        }
+      }
     }
   },
   //回调中移除监听

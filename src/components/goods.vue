@@ -24,7 +24,7 @@
         <el-col
           :span="12"
           class="dtlist_li"
-          @click.native="gotodetail(item.ID)"
+          @click.native="gotodetail(item)"
           v-for="item in productlist"
           :key="item.ID"
         >
@@ -61,14 +61,20 @@ export default {
         params: { id: path }
       });
       this.productlist = data.data.length ? data.data[0].Prolist : [];
-      console.log(data.data[0].Prolist);
     },
     gotoback() {
       this.$router.push("/sort");
     },
-    gotodetail(id) {
-      // this.$router.push("/detail");
-      this.$router.push(`/detail/${id}`);
+    gotodetail(item) {
+      function str(o) {
+        var str1 = "";
+        for (var key in o) {
+          str1 = str1 + "&" + `${key}=${o[key]}`;
+        }
+        return str1.slice(1);
+      }
+      let str2 = str(item);
+      this.$router.push(`/detail/${item.ID}?${str2}`);
     }
   }
 };

@@ -26,6 +26,11 @@
 </template>
 <script>
 export default {
+  data() {
+    return {
+      // inputValue: ""
+    };
+  },
   methods: {
     gotoback() {
       this.$router.push("/sort");

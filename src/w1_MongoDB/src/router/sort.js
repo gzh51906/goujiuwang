@@ -3,7 +3,8 @@ const express = require('express');
 const Router = express.Router();
 const {
     insert,
-    find
+    find,
+    update
 } = require('../db/mongo');
 const {
     formatData
@@ -75,5 +76,79 @@ Router.post('/reg', async (req, res) => {
             code: 0
         }))
     }
+})
+
+
+// 测试添加数据
+Router.post('/cart', async (req, res) => {
+    console.log("增加数据");
+
+    let {
+        APPPrice,
+        ID,
+        Pic,
+        ProductName,
+        qty
+    } = req.body;
+    try {
+        insert('cart', {
+            APPPrice,
+            ID,
+            Pic,
+            ProductName,
+            qty
+        });
+        res.send(formatData())
+    } catch (err) {
+        res.send(formatData({
+            code: 0
+        }))
+    }
+})
+
+// 查找数据中是否含有某项
+// 查询指定的商品
+Router.get('/cartlist', async (req, res) => {
+    console.log("查找数据");
+
+    let {
+        id
+    } = req.query;
+    let data = await find('cart', {
+        ID: id * 1
+    });
+    console.log("查找的", data);
+
+    // res.send('res')
+    res.send(formatData({
+        data
+    }))
+})
+
+// 修改数据
+Router.post('/updata', async (req, res) => {
+    // console.log("修改数据");
+    let {
+        ID,
+        qty
+    } = req.body;
+    // console.log("参数", {
+    //     ID: ID,
+    //     qty: qty
+    // });
+    let data = await update('cart', {
+        ID
+    }, {
+        $set: {
+            qty
+        }
+    });
+    // console.log("data", {
+    //     data
+    // });
+    // res.send('res')
+    res.send(formatData({
+        data
+    }))
 })
 module.exports = Router;
