@@ -107,7 +107,10 @@ exports.find = async (colName, query = {}, {
     if (query._id) {
         query._id = ObjectId(query._id);
     }
-
+    // 对名字进行处理
+    if (query.name) {
+        query.name = new RegExp(query.name)
+    }
     let result = collection.find(query);
 
     // 筛选

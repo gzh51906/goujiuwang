@@ -365,7 +365,7 @@ export default {
       this.$router.push({ name: val });
     },
     attention() {
-      // console.log("attention");
+      console.log("attention");
       // 判断是否是登录状态，是的话直接更换成有颜色的星星，不是的话就跳转到登录页面
     },
     buy() {
@@ -376,11 +376,12 @@ export default {
       // console.log("val", val);
       // 输入框的值
       let qty = this.num;
-      // console.log("this.cartlenth()", this.cartlenth);
 
       let { Pic, APPPrice, ProductName, ID } = this.itemlist;
-      console.log(Pic, APPPrice, ProductName, ID, qty);
+      // console.log(Pic, APPPrice, ProductName, ID, qty);
+      let datas;
       if (Pic && APPPrice && ProductName && ID && qty) {
+        // 查询指定商品，判断加入购物车的数据是否是已经存在数据库中了
         let { data } = await this.$axios.get(
           "http://localhost:1906/sort/cartlist",
           {
@@ -388,19 +389,21 @@ export default {
           }
         );
         let len = data.data.length;
-        console.log("length", data.data.length);
+        datas = data;
+        // console.log("length", data.data.length);
+        // console.log("qty", data.data[0].qty); //查询数据库得到的原本改条的qty
+        // 如果长度不为0，说明存在，那么就修改数据
         if (len != 0) {
-          console.log("有该商品了");
-          console.log(Pic, APPPrice, ProductName, ID, qty);
-
+          let count = datas.data[0].qty;
+          // i 为原本的qty和输入框的值的总和；
+          let i = qty + count;
+          // console.log("有该商品了");
           // 修改数据
           let { data } = await this.$axios.post(
             "http://localhost:1906/sort/updata",
-            { ID, qty }
+            { ID, i }
           );
           let { cartlist } = this.$store.state.cart;
-          // console.log("this.itemlist", this.itemlist);
-          // console.log("this.$store.state", this.$store.state);
           // 判断当前商品是否已经存在购物车
           // 存在：改变数量
           // 不存在：添加商品
@@ -409,8 +412,7 @@ export default {
             //得到一个数组或空数组
             return item.ID === ID;
           })[0];
-          console.log("hasItem", hasItem);
-
+          // console.log("hasItem", hasItem);//判断当前商品是否已经存在购物车
           if (hasItem) {
             this.$store.commit("changeQty", { ID: ID, qty: hasItem.qty + qty });
           } else {
@@ -423,8 +425,8 @@ export default {
             });
           }
         } else {
-          console.log("没有该商品了");
-          // 添加数据
+          // console.log("没有该商品");
+          // 直接添加该商品到数据库
           let { data } = await this.$axios.post(
             "http://localhost:1906/sort/cart",
             {
@@ -436,18 +438,12 @@ export default {
             }
           );
           let { cartlist } = this.$store.state.cart;
-          // console.log("this.itemlist", this.itemlist);
-          // console.log("this.$store.state", this.$store.state);
-          // 判断当前商品是否已经存在购物车
-          // 存在：改变数量
-          // 不存在：添加商品
+          // 格式化图片路径
           Pic = `http://img0.gjw.com/product/${Pic}`;
           let hasItem = cartlist.filter(function(item) {
-            //得到一个数组或空数组
             return item.ID === ID;
           })[0];
-          console.log("hasItem", hasItem);
-
+          console.log("hasItem", hasItem); //同样要判断car页面是否含有该商品
           if (hasItem) {
             this.$store.commit("changeQty", { ID: ID, qty: hasItem.qty + qty });
           } else {

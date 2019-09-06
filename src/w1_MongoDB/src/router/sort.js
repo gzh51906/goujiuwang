@@ -79,10 +79,9 @@ Router.post('/reg', async (req, res) => {
 })
 
 
-// 测试添加数据
+// 添加数据
 Router.post('/cart', async (req, res) => {
-    console.log("增加数据");
-
+    // console.log("增加数据");
     let {
         APPPrice,
         ID,
@@ -130,22 +129,35 @@ Router.post('/updata', async (req, res) => {
     // console.log("修改数据");
     let {
         ID,
-        qty
+        i
     } = req.body;
-    // console.log("参数", {
-    //     ID: ID,
-    //     qty: qty
-    // });
+    // console.log(i);//前端传来的qty要被修改的值
+
     let data = await update('cart', {
         ID
     }, {
         $set: {
-            qty
+            qty: i
         }
     });
-    // console.log("data", {
-    //     data
-    // });
+
+    res.send(formatData({
+        data
+    }))
+})
+
+// 搜索功能，查看数据中是否含有某项
+Router.get('/search', async (req, res) => {
+    // console.log('----', req.query);
+    let {
+        id
+    } = req.query;
+    let query = req.query;
+    console.log(query);
+
+    let data = await find('datalist', {
+        name: id
+    });
     // res.send('res')
     res.send(formatData({
         data

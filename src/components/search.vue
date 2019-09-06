@@ -33,7 +33,7 @@ export default {
   },
   methods: {
     gotoback() {
-      this.$router.push("/sort");
+      this.$router.go(-1);
     }
   }
 };
