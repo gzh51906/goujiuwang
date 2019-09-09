@@ -6,7 +6,7 @@
     </div>
     <el-form :model="ruleForm" status-icon :rules="rules" ref="loginForm">
       <el-form-item prop="phone" class="inputs" style="margin-top:10px;">
-        <el-input type="text" v-model="ruleForm.phone" placeholder="用户/邮箱/手机"></el-input>
+        <el-input type="text" v-model="ruleForm.phone" placeholder="请输入手机号"></el-input>
       </el-form-item>
       <el-form-item prop="password" class="inputs">
         <el-input type="password" v-model="ruleForm.password" autocomplete="off" placeholder="密码"></el-input>
@@ -70,9 +70,11 @@ export default {
             }
           );
           if(data.code === 1){
+            localStorage.setItem("username",this.ruleForm.phone);
             let targetUrl = this.$route.query.targetUrl || '/mine'
             this.$router.push(targetUrl);
-
+           
+             
               // 保存token到本地
               this.$store.commit('login',data.data.authorization)
           }else{

@@ -41,7 +41,7 @@ Router.post('/updata', async(req, res) => {
         ID
     
     } = req.body;
-    console.log(req.body);
+  
     let data = await update('cart', {
         ID:ID*1
     }, {
@@ -49,6 +49,7 @@ Router.post('/updata', async(req, res) => {
             qty:qty*1
         }
     });
+    console.log(ID)
     res.send(formatData({
         data
     }))

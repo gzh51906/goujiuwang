@@ -98,6 +98,7 @@ exports.find = async (colName, query = {}, {
         db,
         client
     } = await connect();
+    
 
     //  获取集合
     let collection = db.collection(colName);

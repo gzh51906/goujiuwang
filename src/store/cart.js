@@ -21,7 +21,7 @@ export default {
         ]
     },
     getters: {
-        totalPrice: function (state) {
+        totalPrice: function (state){
             return state.cartlist.reduce(function (prev, item) {
                 // prev：前一次reduce的返回值
                 return prev + item.APPPrice * item.qty
@@ -49,38 +49,34 @@ export default {
     },
     actions: {
         //查询所有商品
-        saveForm(context) {
-            axios.post('http://localhost:1906/cart', context.state.cartlist).then(res => { // 调用接口
-                context.commit('changeQty', res.data)
-                // 通过接口获取的后台数据保存到store中，等待组件取用              
-                context.state.cartlist = res.data.data;
+      saveForm(context) {
+       axios.post('http://localhost:1906/cart', context.state.cartlist).then(res => {  // 调用接口
+                context.commit('changeQty',res.data)     // 通过接口获取的后台数据保存到store中，等待组件取用   
+                
+                  context.state.cartlist=res.data.data;//得到数据
+                  
 
-
-            })
-
-        },
-        //删除商品
-        removeForm(context, id) {
-            axios.post('http://localhost:1906/cart/delete', {
-                ID: id
-            }).then(res => {
-                context.commit('removeItem', res.data);
-
-
-            })
-        },
-        updateForm(context, {
-            ID,
-            qty
-        }) {
-            // context.state.cartlist
-            axios.post('http://localhost:1906/cart/updata', {
-                ID: ID,
-                qty: qty
-            }).then(res => {
-                context.commit('changeQty', res.data);
-
-            })
+                }) 
+                           
+            },
+            //删除商品
+            removeForm(context,id){      
+                axios.post('http://localhost:1906/cart/delete',{ID:id}).then(res=>{
+                    context.commit('removeItem',res.data);
+                    
+                    
+                })
+            },
+            //修改数量
+            updateForm(context,{ID,qty}){  
+                // context.state.cartlist
+                axios.post('http://localhost:1906/cart/updata',{ID:ID ,qty:qty}).then(res=>{
+                    context.commit('changeQty',res.data);
+                    
+                })
+            }
+     
+     
         }
 
 

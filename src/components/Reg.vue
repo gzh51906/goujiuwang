@@ -6,7 +6,7 @@
     </div>
     <el-form :model="ruleForm" status-icon :rules="rules" ref="regForm" class="demo-ruleForm">
       <el-form-item prop="phone" style="margin-top:10px; width:80%; margin-left:35px;">
-        <el-input type="text" v-model="ruleForm.phone" placeholder="请输入11位手机号"></el-input>
+        <el-input type="text" v-model="ruleForm.phone"  placeholder="请输入11位手机号"></el-input>
       </el-form-item>
       <el-form-item prop="pass" style=" width:80%; margin-left:35px;">
         <el-input type="password" v-model="ruleForm.pass" autocomplete="off" placeholder="密码"></el-input>
@@ -81,11 +81,15 @@ export default {
           { validator: validatePass, trigger: "blur" }
         ],
         checkPass: [{ validator: checkPass, trigger: "blur" }],
-        phone: [
+         phone:[{pattern:/^1[3|4|5|7|8][0-9]{9}$/ ,message:'输入有误', trigger: "blur" },
           { required: true, message: "必须填写手机号", trigger: "blur" },
           { min: 11, max: 11, message: "11位数字", trigger: "blur" },
-          { validator: checkPhone, trigger: "blur" }
-        ]
+          { validator: checkPhone, trigger: "blur" }],
+        // phone: [
+        //   { required: true, message: "必须填写手机号", trigger: "blur" },
+        //   { min: 11, max: 11, message: "11位数字", trigger: "blur" },
+        //   { validator: checkPhone, trigger: "blur" }
+        // ]
       }
     };
   },
