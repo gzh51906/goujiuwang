@@ -340,11 +340,12 @@ export default {
       });
     },
     tobacktarget() {
-      if (this.$route.query.target) {
-        // this.$router.push(target);
-      } else {
-        this.$router.push("/goods");
-      }
+      // if (this.$route.query.target) {
+      //   // this.$router.push(target);
+      // } else {
+      //   this.$router.push("/");
+      // }
+      this.$router.go("-1");
     },
     changi(i) {
       this.activeIdx = i;
@@ -477,6 +478,9 @@ html,
 body,
 .detail {
   height: 100%;
+  max-width: 640px;
+  margin: auto;
+  min-width: 320px;
 }
 .detail .top {
   height: calc(100% - 50px);
@@ -632,6 +636,9 @@ body,
   left: 0;
   right: 0;
   padding-left: 10px;
+  max-width: 640px;
+  margin: auto;
+  min-width: 320px;
 }
 .navigation .nav_item {
   padding-top: 5px;
@@ -643,6 +650,7 @@ body,
   font-size: 25px;
   margin-right: 10px;
   color: #333;
+  position: relative;
 }
 .nav_home {
   margin-right: 5px;
@@ -653,7 +661,7 @@ body,
 }
 .navigation .bottom_left i .badge_item {
   position: absolute;
-  left: 90px;
+  left: 24px;
 }
 .nowbuy,
 .joincart {
