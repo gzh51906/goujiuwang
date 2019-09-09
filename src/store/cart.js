@@ -1,24 +1,24 @@
 import axios from 'axios'
-export default{
-    state:{
+export default {
+    state: {
         //存数据定义一个空数组
-        cartlist:[
-        //     {
-        //     ID:1,
-        //     ProductName:'53度 珍酒 珍品 1975 500ml',
-        //     qty:1,
-        //     APPPrice:198.0,
-        //     Pic:"2019/0816/731da146152b4ebe85b32e2bfd761141.jpg"
-        // },
-        
-        // {
-        //     ID : 2,
-        //     ProductName : "53度 茅台 飞天带杯（ 2019年产 ）500ml",
-        //     APPPrice: 2799.0,
-        //     Pic: "2019/0813/94ff85adea814fd89cce17556bbce5dd.jpg",
-        //     qty:2,
-        // }
-    ]
+        cartlist: [
+            //     {
+            //     ID:1,
+            //     ProductName:'53度 珍酒 珍品 1975 500ml',
+            //     qty:1,
+            //     APPPrice:198.0,
+            //     Pic:"2019/0816/731da146152b4ebe85b32e2bfd761141.jpg"
+            // },
+
+            // {
+            //     ID : 2,
+            //     ProductName : "53度 茅台 飞天带杯（ 2019年产 ）500ml",
+            //     APPPrice: 2799.0,
+            //     Pic: "2019/0813/94ff85adea814fd89cce17556bbce5dd.jpg",
+            //     qty:2,
+            // }
+        ]
     },
     getters: {
         totalPrice: function (state){
@@ -46,8 +46,8 @@ export default{
                 return item;
             })
         },
-    }, 
-    actions:{
+    },
+    actions: {
         //查询所有商品
       saveForm(context) {
        axios.post('http://localhost:1906/cart', context.state.cartlist).then(res => {  // 调用接口
@@ -78,6 +78,7 @@ export default{
      
      
         }
+
 
     }
 

@@ -1,7 +1,7 @@
 <template>
   <div class="datalist">
     <div class="serc">
-      <div class="back" @click="gotoback">
+      <div class="back" @click.prevent="gotoback">
         <i class="el-icon-s el-icon-arrow-left"></i>
       </div>
       <input type="text" placeholder=" 请输入商品名称" />
@@ -57,7 +57,7 @@ export default {
   methods: {
     async prolist(path) {
       path = path.name;
-      let { data } = await this.$axios.get("http://localhost:1906/sort/goods",{
+      let { data } = await this.$axios.get("http://localhost:1906/sort/goods", {
         params: { id: path }
       });
       this.productlist = data.data.length ? data.data[0].Prolist : [];
@@ -90,19 +90,19 @@ export default {
   width: 100%;
   height: 45px;
   position: relative;
-  padding-top: 5px;
   color: #949494;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
+  border-bottom: 1px solid #faf3f3;
 }
 .serc .back {
-  width: 38px;
-  height: 48px;
+  width: 41px;
+  height: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background: pink; */
 }
 .serc input {
   height: 30px;
@@ -134,12 +134,14 @@ input::-webkit-input-placeholder {
   display: flex;
   padding-left: 0px;
   font-size: 14px;
+  padding: 5px;
+  height: 30px;
+  margin: 5px 0px;
 }
 .sort li {
   width: 33%;
   text-align: center;
   height: 30px;
-  line-height: 30px;
 }
 .sort li:nth-child(2) {
   border-right: solid 1px #faf3f3;
