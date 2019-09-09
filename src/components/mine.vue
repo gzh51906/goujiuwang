@@ -6,11 +6,32 @@
           <div class="block">
             <el-avatar :size="80" :src="circleUrl"></el-avatar>
           </div>
+             <div style="color:#fff; width:200px;">用户名：{{username}}</div>
           <div class="block" v-for="size in sizeList" :key="size"></div>
+         
         </div>
+       
       </el-col>
-      <span style="margin-left:-85px" @click="gotor">注册/</span>
-      <span @click="gotol">登录 <i class="el-icon-arrow-right"></i></span>
+      <!-- <span style="margin-left:-85px" @click="gotor">注册/</span>
+      <span @click="gotol">登录 <i class="el-icon-arrow-right"></i></span> -->
+         <el-col :span="20" :offset="1">
+         <el-row v-if="islog">
+          <el-col :span="6" @click.native="goto('reg')" style="color:#fff;">
+            <i class="el-icon-s-custom"></i>
+            注册
+          </el-col>
+          <el-col :span="6" @click.native="goto('login')" style="color:#fff;">
+            <i class="el-icon-user"></i>
+            登录
+          </el-col>
+        </el-row>
+        <el-row v-else>
+          <el-col :span="6" :offset="0" style="margin-top:84px">
+            <el-button type="text" icon="el-icon-switch-button" @click="logout" style="color:#fff">退出</el-button>
+          </el-col>
+        </el-row>
+      </el-col>
+    
     </div>
     <div class="mine-a">
       <span style="margin-left:10px">我的订单</span>
@@ -131,20 +152,56 @@
 export default {
   data() {
     return {
+      islog:this.logined,
+      username:localStorage.getItem("username"),
       circleUrl:
         "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
       sizeList: ["large"]
     };
   },
+  created(){
+    // console.log(this,111111111);
+    // console.log(this.logined,2222);
+    // this.$route
+   
+    
+  },
   methods:{
-     gotol(){
-       this.$router.push('/login')
-     },
-       gotor(){
-       this.$router.push('/reg')
-     }
+    logout(){
+       this.username=localStorage.removeItem("username"),
+      this.$store.commit('logout');
+
+      if(this.$route.meta.requiresAuth){
+        this.$router.push({
+          path:'/login',
+          query:{targetUrl:this.$route.fullPath}
+        })
+      }
+    },
+     goto(path){
+      this.$router.push({path})
+    },
+   
+    //  gotol(){
+    //    this.$router.push('/login')
+    //  },
+    //    gotor(){
+    //    this.$router.push('/reg')
+    //  }
+  },
+    computed:{
+    cartlenth(){
+      // return this.$store.state.cartlist.length;
+
+      // 模块化后：
+      console.log(this.$store)
+      return this.$store.state.cart.cartlist.length;
+    },
+    logined(){
+      return !this.$store.state.common.authorization;
+    }
+  },
   }
-};
 </script>
 <style>
 * {

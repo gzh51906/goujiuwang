@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken');
 const secret = 'laoxie';
 
 // 创建
-function create(data,expiresIn=60*60*24){
+function create(data,expiresIn=10){
     //生成 Token：根据传入用户名和key进行加密，并设置有效期
     let token = jwt.sign({data}, secret, {
         // data：加密的数据
