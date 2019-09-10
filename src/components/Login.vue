@@ -63,7 +63,7 @@ export default {
         if (valid) {
           // hard code
           let { data } = await this.$axios.post(
-            "http://localhost:1906/user/login",
+            "http://47.106.178.206:5050/user/login",
             {
               phone: this.ruleForm.phone,
               password: this.ruleForm.password

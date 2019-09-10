@@ -50,14 +50,14 @@ export default {
     };
   },
   created() {
-    console.log(this.$route.params);
+    // console.log(this.$route.params);
     let path = this.$route.params;
     this.prolist(path);
   },
   methods: {
     async prolist(path) {
       path = path.name;
-      let { data } = await this.$axios.get("http://localhost:1906/sort/goods", {
+      let { data } = await this.$axios.get("http://47.106.178.206:5050/sort/goods", {
         params: { id: path }
       });
       this.productlist = data.data.length ? data.data[0].Prolist : [];

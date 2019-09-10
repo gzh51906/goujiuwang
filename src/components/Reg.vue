@@ -51,7 +51,7 @@ export default {
     };
 
     var checkPhone = async (rule, value, callback) => {
-      let { data } = await this.$axios.get("http://localhost:1906/user/check", {
+      let { data } = await this.$axios.get("http://47.106.178.206:5050/user/check", {
         params: {
           phone: this.ruleForm.phone
         }
@@ -101,7 +101,7 @@ export default {
       this.$refs["regForm"].validate(async valid => {
         if (valid) {
           let { data } = await this.$axios.post(
-            "http://localhost:1906/user/reg",
+            "http://47.106.178.206:5050/user/reg",
             {
               phone: this.ruleForm.phone,
               password: this.ruleForm.pass

@@ -35,7 +35,7 @@ export default {
   },
   methods: {
     async database() {
-      let { data } = await this.$axios.get("http://localhost:1906/sort");
+      let { data } = await this.$axios.get("http://47.106.178.206:5050/sort");
       // console.log(data);
       this.datalist = data.data[0].item_data;
       // console.log(this.datalist);

@@ -317,9 +317,12 @@ export default {
   methods: {
     async iteminf(path) {
       let ietmid = path.name;
-      let { data } = await this.$axios.get("http://localhost:1906/sort/item", {
-        params: { id: ietmid }
-      });
+      let { data } = await this.$axios.get(
+        "http://47.106.178.206:5050/sort/item",
+        {
+          params: { id: ietmid }
+        }
+      );
       this.itemlist = data.data.length ? data.data[0] : [];
       // console.log("this.itemlist", this.itemlist);
       this.ActivityNamelength = this.itemlist.ActivityName.length;
@@ -366,7 +369,7 @@ export default {
       this.$router.push({ name: val });
     },
     attention() {
-      console.log("attention");
+      // console.log("attention");
       // 判断是否是登录状态，是的话直接更换成有颜色的星星，不是的话就跳转到登录页面
     },
     buy() {
@@ -384,7 +387,7 @@ export default {
       if (Pic && APPPrice && ProductName && ID && qty) {
         // 查询指定商品，判断加入购物车的数据是否是已经存在数据库中了
         let { data } = await this.$axios.get(
-          "http://localhost:1906/sort/cartlist",
+          "http://47.106.178.206:5050/sort/cartlist",
           {
             params: { id: ID }
           }
@@ -401,7 +404,7 @@ export default {
           // console.log("有该商品了");
           // 修改数据
           let { data } = await this.$axios.post(
-            "http://localhost:1906/sort/updata",
+            "http://47.106.178.206:5050/sort/updata",
             { ID, i }
           );
           let { cartlist } = this.$store.state.cart;
@@ -429,7 +432,7 @@ export default {
           // console.log("没有该商品");
           // 直接添加该商品到数据库
           let { data } = await this.$axios.post(
-            "http://localhost:1906/sort/cart",
+            "http://47.106.178.206:5050/sort/cart",
             {
               Pic,
               APPPrice,
@@ -444,7 +447,7 @@ export default {
           let hasItem = cartlist.filter(function(item) {
             return item.ID === ID;
           })[0];
-          console.log("hasItem", hasItem); //同样要判断car页面是否含有该商品
+          // console.log("hasItem", hasItem); //同样要判断car页面是否含有该商品
           if (hasItem) {
             this.$store.commit("changeQty", { ID: ID, qty: hasItem.qty + qty });
           } else {
