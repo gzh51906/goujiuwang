@@ -159,13 +159,6 @@ export default {
       sizeList: ["large"]
     };
   },
-  created(){
-    // console.log(this,111111111);
-    // console.log(this.logined,2222);
-    // this.$route
-   
-    
-  },
   methods:{
     logout(){
        this.username=localStorage.removeItem("username"),
@@ -191,10 +184,6 @@ export default {
   },
     computed:{
     cartlenth(){
-      // return this.$store.state.cartlist.length;
-
-      // 模块化后：
-      console.log(this.$store)
       return this.$store.state.cart.cartlist.length;
     },
     logined(){

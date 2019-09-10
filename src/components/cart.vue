@@ -85,8 +85,6 @@ this.submitForm();
  this.$store.dispatch('removeForm',id)//触发vuex里面的网络请求
  },
  suchForm(qty,ID){
-  //  console.log("ID",ID,"qty",qty);
-   
  this.$store.dispatch('updateForm',{ID,qty})//触发vuex里面的网络请求
  }
   }
