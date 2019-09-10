@@ -85,7 +85,7 @@ router.beforeEach(function (to, from, next) {
     let authorization = localStorage.getItem('Authorization');
     if (authorization) {
       // 发起校验
-      axios.get('http://localhost:1906/verify', {
+      axios.get('http://47.106.178.206:5050/verify', {
         headers: {
           Authorization: authorization
         }

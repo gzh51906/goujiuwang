@@ -1,15 +1,19 @@
 # Vue项目之购酒网
+## 项目名称
+### 购酒网
 
-## 上线
-
+## 演示
 ```
-    项目官网：http://m.gjw.com/index.html
+    官网：http://m.gjw.com/index.html
     WebApp上线地址：http://47.106.178.206:5050/
     后台管理系统地址：http://47.106.178.206:5051/（无账户密码，直接登录）
-    github地址：https://github.com/gzh51906/goujiuwang.git
 ```
-
-## 团队
+## git仓库地址
+```
+    WebApp github地址：https://github.com/gzh51906/goujiuwang.git
+    后台管理github地址：https://github.com/gzh51906/gjw-houtai
+```
+## 团队与分工
 ```
     组长：熊小超
     组员：何新建、袁素兰
@@ -21,6 +25,28 @@
 ```
 
 ## 项目目录
+#### 项目目录说明
+```
+scr文件夹里面的是所有的内容；
+    其中api文件夹存放的是后台接口；
+    assets文件夹存放的是静态资源；
+    components文件夹存放的是组件；
+            benefits.vue是专享福利页面；
+            cart.vue是购物车页面;
+            detail.vue是商品详情页页面；
+            goods.vue是商品列表页；
+            home.vue是首页；
+            login.vue是登录页面；
+            mine.vue是我的页面；
+            reg.vue是注册页面；
+            search是搜索页面；
+            sort.vue是分类页面
+    router文件夹存放的是路由；
+    store文件夹存放的是vuex内容；
+```
+
+#### 项目目录树形结构
+
 ```
 │  .gitignore
 │  babel.config.js
@@ -183,6 +209,15 @@
             index.js
 
 ```
+
+
+## 项目页面截图
+![首页](./src/assets/projectimg/home.png "首页")
+![购物车](./src/assets/projectimg/cart.png "购物车")
+![详情页](./src/assets/projectimg/detail.png "详情页")
+![列表页](./src/assets/projectimg/goodlist.png "列表页")
+
+
 # myproject
 
 ## Project setup
